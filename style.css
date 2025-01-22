@@ -176,4 +176,6 @@ body
 .Links a:nth-child(15) i img[src]
 {
     content: var(--toonhud);
+    padding: 6px 6px;
+    background-color: #a03532;
 }
