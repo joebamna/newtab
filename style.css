@@ -1,5 +1,3 @@
-@import url("https://toonhud.com/css/scss/layout/_animations.scss");
-
 .Links a i img[src]
 {
     transition: transform 0.05s ease;
