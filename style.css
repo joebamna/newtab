@@ -99,6 +99,10 @@ body
 {
     width: var(--linksw) !important;
 }
+.Links a i img[src]
+{
+    background-color: #212830;
+}
 .Links a:nth-child(1) i img[src]
 {
     content: var(--youtube) !important;
@@ -146,5 +150,5 @@ body
 .Links a:nth-child(11) i img[src]
 {
     content: var(--githud) !important;
-    /*background-color: #212830 !important;*/
+    background-color: #212830 !important;
 }
