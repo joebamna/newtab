@@ -14,7 +14,8 @@
    version="1.1"
    xml:space="preserve"
    id="svg6"
-   sodipodi:docname="autohotkey2.svg"
+   sodipodi:docname="ahk.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +29,21 @@
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
-   showguides="false" />
+   showguides="false"
+   inkscape:zoom="256"
+   inkscape:cx="0.46484375"
+   inkscape:cy="0.076171875"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="3832"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg6" />
   
   <g
    style="display:inline"
    id="g6"
-   transform="translate(-7.4104168,-4.0458336)">
+   transform="translate(-6.6342007,-4.0458333)">
     <path
    style="display:inline;fill:#8cf287;stroke-width:0.293683"
    d="m 4.2333333,2.660819 c 0.7328958,0 1.3229166,-0.1667343 1.3229166,0.612115 v 9.442052 c 0,0.778849 -0.5900208,1.5875 -1.3229166,1.5875 -0.7328958,0 -1.3229166,0.166734 -1.3229166,-0.612115 V 4.2483189 c 0,-0.7788491 0.5900208,-1.5874999 1.3229166,-1.5874999 z"
