@@ -101,7 +101,7 @@ body
 }
 .Links a i img[src]
 {
-    background-color: #212830;
+    background-color: #262c36;
 }
 .Links a:nth-child(1) i img[src]
 {
@@ -150,5 +150,5 @@ body
 .Links a:nth-child(11) i img[src]
 {
     content: var(--githud) !important;
-    background-color: #212830 !important;
+    background-color: #262c36;
 }
