@@ -166,6 +166,8 @@ body
     content: var(--ahk);
     padding: 8px 8px;
     background-color: #448e3aff;
+    width: 64px;
+    height: 64px;
 }
 .Links a:nth-child(14) i img[src]
 {
