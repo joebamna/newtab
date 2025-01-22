@@ -85,66 +85,66 @@ body
 }
 .Time hr
 {
-    display: block !important;
-    border-top: 0px solid transparent !important;
-    margin: 10px -30px !important;
+    display: block;
+    border-top: 0px solid transparent;
+    margin: 10px -30px;
 }
 .Links a i img
 {
-    transform: var(--movedown) !important;
-    border-radius: 22.5% !important;
-    box-shadow: 0px 5px 10px 2px #00000050 !important;
+    transform: var(--movedown);
+    border-radius: 22.5% ;
+    box-shadow: 0px 5px 10px 2px #00000050;
 }
 .Links
 {
-    width: var(--linksw) !important;
+    width: var(--linksw);
 }
 .Links a:nth-child(11) i img[src]
 {
-    content: var(--githud) !important;
+    content: var(--githud);
     background-color: #262c36;
 }
 .Links a:nth-child(1) i img[src]
 {
-    content: var(--youtube) !important;
+    content: var(--youtube);
 }
 .Links a:nth-child(2) i img[src]
 {
-    content: var(--newgrounds) !important;
+    content: var(--newgrounds);
 }
 .Links a:nth-child(3) i img[src]
 {
-    content: var(--gamebanana) !important;
+    content: var(--gamebanana);
     background-color: white;
 }
 .Links a:nth-child(4) i img[src]
 {
-    content: var(--bluesky) !important;
+    content: var(--bluesky);
 }
 .Links a:nth-child(5) i img[src]
 {
-    content: var(--twitter) !important;
+    content: var(--twitter);
 }
 .Links a:nth-child(6) i img[src]
 {
-    content: var(--twitch) !important;
+    content: var(--twitch);
 }
 .Links a:nth-child(7) i img[src]
 {
-    content: var(--ai) !important;
+    content: var(--ai);
 }
 .Links a:nth-child(8) i img[src]
 {
-    content: var(--reddit) !important;
-    background-color: white !important;
-    border: 7px solid transparent !important;
+    content: var(--reddit);
+    background-color: white;
+    border: 7px solid transparent;
 }
 .Links a:nth-child(9) i img[src]
 {
-    content: var(--patreon) !important;
+    content: var(--patreon);
 }
 .Links a:nth-child(10) i img[src]
 {
-    content: var(--virustotal) !important;
-    background-color: #fefefe !important;
+    content: var(--virustotal);
+    background-color: #fefefe;
 }
