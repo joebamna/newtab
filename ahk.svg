@@ -1,315 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2022-2023 Lexikos, used with permission under GNU GPLv3 -->
+
+<!-- https://github.com/AutoHotkey/AutoHotkey/commit/446829bc730aa002635d3d36bfd17e892b6981c0 -->
+
+<!-- https://github.com/AutoHotkey/AutoHotkey/blob/alpha/source/resources/icons.svg -->
+
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
-   width="72.899292"
-   height="69.896049"
+   width="30.88146"
+   height="34.057064"
+   viewBox="-3 -1.4 9.1357651 11.671639"
    version="1.1"
-   viewBox="0 0 19.288802 18.49295"
-   id="svg85"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xml:space="preserve"
+   id="svg6"
+   sodipodi:docname="autohotkey2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <title
-     id="title1">AutoHotkey modern logo</title>
-  <defs
-     id="defs17">
-    <linearGradient
-       id="a">
-      <stop
-         stop-color="#cfd0d1"
-         offset="0"
-         id="stop1" />
-      <stop
-         stop-color="#dbdbdb"
-         offset="1"
-         id="stop2" />
-    </linearGradient>
-    <linearGradient
-       id="b">
-      <stop
-         stop-color="#f4f5f7"
-         offset="0"
-         id="stop3" />
-      <stop
-         stop-color="#e9eaeb"
-         offset="1"
-         id="stop4" />
-    </linearGradient>
-    <linearGradient
-       id="k"
-       x1="4.5837002"
-       x2="12.759"
-       y1="11.944"
-       y2="11.944"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#b"
-       spreadMethod="reflect" />
-    <linearGradient
-       id="f"
-       x1="-1084.9"
-       x2="-1062"
-       y1="454.41"
-       y2="438.75"
-       gradientTransform="matrix(0.055219,0,0,-0.055033,64.547,43.998)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#b">
-      <stop
-         stop-color="#cfd0d1"
-         offset="0"
-         id="stop5" />
-      <stop
-         stop-color="#b7b7b7"
-         offset="1"
-         id="stop6" />
-    </linearGradient>
-    <linearGradient
-       id="e"
-       x1="-1084.9"
-       x2="-1062"
-       y1="454.41"
-       y2="438.75"
-       gradientTransform="matrix(-0.055219,0,0,-0.055033,-38.079,44.048)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#b">
-      <stop
-         stop-color="#cfd0d1"
-         offset="0"
-         id="stop7" />
-      <stop
-         stop-color="#b7b7b7"
-         offset="1"
-         id="stop8" />
-    </linearGradient>
-    <linearGradient
-       id="h"
-       x1="3.5892"
-       x2="5.4735999"
-       y1="17.781"
-       y2="5.3909001"
-       gradientTransform="matrix(0.77624,0,0,1.0263,0.80313,-0.14201)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#a" />
-    <linearGradient
-       id="g"
-       x1="3.5892"
-       x2="5.4735999"
-       y1="17.781"
-       y2="5.3909001"
-       gradientTransform="matrix(1.0652,0,0,1,-26.701,0.029204)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#a" />
-    <linearGradient
-       id="c"
-       x1="-1084.9"
-       x2="-1062"
-       y1="454.41"
-       y2="438.75"
-       gradientTransform="matrix(0.055219,0,0,0.055033,64.547,-19.403)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#b">
-      <stop
-         stop-color="#dbdbdb"
-         offset="0"
-         id="stop9" />
-      <stop
-         stop-color="#f3f3f3"
-         offset="1"
-         id="stop10" />
-    </linearGradient>
-    <linearGradient
-       id="d"
-       x1="-1076.5"
-       x2="-1060.2"
-       y1="448.73001"
-       y2="425.19"
-       gradientTransform="matrix(-0.055219,0,0,0.055033,-38.079,-19.453)"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#dbdbdb"
-         offset="0"
-         id="stop11" />
-      <stop
-         stop-color="#f3f3f3"
-         offset="1"
-         id="stop12" />
-    </linearGradient>
-    <linearGradient
-       id="o"
-       x1="-1084.9"
-       x2="-1062"
-       y1="454.41"
-       y2="438.75"
-       gradientTransform="matrix(0.055219,0,0,-0.055033,64.547,43.998)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#f" />
-    <linearGradient
-       id="n"
-       x1="-1084.9"
-       x2="-1062"
-       y1="454.41"
-       y2="438.75"
-       gradientTransform="matrix(-0.055219,0,0,-0.055033,-38.079,44.048)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#e" />
-    <linearGradient
-       id="m"
-       x1="-1084.9"
-       x2="-1062"
-       y1="454.41"
-       y2="438.75"
-       gradientTransform="matrix(0.055219,0,0,0.055033,64.547,-19.403)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#c" />
-    <linearGradient
-       id="l"
-       x1="-1076.5"
-       x2="-1060.2"
-       y1="448.73001"
-       y2="425.19"
-       gradientTransform="matrix(-0.055219,0,0,0.055033,-38.079,-19.453)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#d" />
-  </defs>
-  <metadata
-     id="metadata17">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>AutoHotkey modern logo</dc:title>
-        <dc:description>Unfont: fonts converted to paths. Recreation of the Modern logo for AutoHotkey,
-fonts used are Myriad Pro 12 pt and 36 pt, and Helvetica 16 pt.</dc:description>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>joedf</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:date>July 27th 2020</dc:date>
-        <dc:contributor>
-          <cc:Agent>
-            <dc:title>Author unknown for original logo</dc:title>
-          </cc:Agent>
-        </dc:contributor>
-        <cc:license
-           rdf:resource="" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs6" /><sodipodi:namedview
+   id="namedview6"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showguides="false" />
+  
   <g
-     transform="translate(-3.5891999,-3.0510253)"
-     id="g81">
-    <rect
-       x="3.5892"
-       y="5.3909001"
-       width="1.4627"
-       height="12.886"
-       fill="url(#h)"
-       style="fill:url(#h);paint-order:stroke fill markers"
-       id="rect61" />
-    <rect
-       transform="scale(-1,1)"
-       x="-22.878"
-       y="5.4201002"
-       width="2.0071001"
-       height="12.39"
-       fill="url(#g)"
-       style="fill:url(#g);paint-order:stroke fill markers"
-       id="rect62" />
-    <rect
-       x="5.2919998"
-       y="3.0506001"
-       width="14.967"
-       height="1.0441"
-       fill="#f3f3f3"
-       style="paint-order:stroke fill markers"
-       id="rect63" />
+   style="display:inline"
+   id="g6"
+   transform="translate(-7.4104168,-4.0458336)">
     <path
-       d="M 4.8887,5.9034 3.5892,5.47082 V 4.46862 C 3.653157,3.55429 4.43483,3.05092 5.0387,3.05092 l 0.27581,-2.722e-4 0.46682,1.8521 z"
-       fill="url(#m)"
-       stroke-width="0.26458"
-       id="path63"
-       style="fill:url(#m)" />
+   style="display:inline;fill:#8cf287;stroke-width:0.293683"
+   d="m 4.2333333,2.660819 c 0.7328958,0 1.3229166,-0.1667343 1.3229166,0.612115 v 9.442052 c 0,0.778849 -0.5900208,1.5875 -1.3229166,1.5875 -0.7328958,0 -1.3229166,0.166734 -1.3229166,-0.612115 V 4.2483189 c 0,-0.7788491 0.5900208,-1.5874999 1.3229166,-1.5874999 z"
+   id="path4" />
     <path
-       d="M 20.935,6.7218 22.878,5.5032 V 4.4183 C 22.83264,3.90911 22.42218,3.0935 21.4109,3.0503 l -1.3372,2.717e-4 -0.46142,2.2406 z"
-       fill="url(#l)"
-       stroke-width="0.26458"
-       id="path64"
-       style="fill:url(#l)" />
+   style="display:inline;fill:#8cf287;stroke-width:0.293683"
+   d="m 12.170833,2.660819 c 0.732896,0 1.322916,-0.1667342 1.322916,0.612115 v 9.442052 c 0,0.778849 -0.59002,1.5875 -1.322916,1.5875 -0.732896,0 -1.322917,0.166734 -1.322917,-0.612115 V 4.2483189 c 0,-0.7788492 0.590021,-1.5874999 1.322917,-1.5874999 z"
+   id="path5" />
     <path
-       d="m 20.643,17.311 2.2349,0.43286 v 2.4326 c -0.04536,0.50919 -0.45582,1.3248 -1.4671,1.368 h -1.1966 l -0.39775,-2.191 z"
-       fill="url(#n)"
-       stroke-width="0.26458"
-       id="path65"
-       style="fill:url(#n)" />
-    <path
-       d="M 5.8076,17.79 3.5892,17.69369 v 2.4326 c 0.063957,0.91433 0.84563,1.4177 1.4495,1.4177 H 6.25 l 0.48335,-2.1415 z"
-       fill="url(#o)"
-       stroke-width="0.26458"
-       id="path66"
-       style="fill:url(#o)" />
-    <rect
-       x="6.1978998"
-       y="18.111"
-       width="14.043"
-       height="3.4330001"
-       fill="#b7b7b7"
-       stroke-width="0.33319"
-       id="rect66" />
-    <rect
-       x="4.5837002"
-       y="3.9461999"
-       width="16.351"
-       height="15.996"
-       ry="1.3031"
-       fill="url(#k)"
-       style="fill:url(#k);paint-order:stroke fill markers"
-       id="rect81" />
-  </g>
-  <g
-     transform="matrix(0.87002646,0,0,0.87002646,-2.6745137,-0.70938309)"
-     id="g85">
-    <g
-       aria-label="A"
-       id="g82">
-      <path
-         d="m 9.6509,16.809 0.40076,1.1797 h 0.59831 L 9.18237,13.936 H 8.56148 l -1.524,4.0527 H 7.60192 L 8.02525,16.809 Z m -1.4563,-0.48542 0.64911,-1.7836 h 0.011289 l 0.59831,1.7836 z"
-         stroke-width="0.26458"
-         id="path81" />
-    </g>
-    <g
-       aria-label="H"
-       id="g83" />
-    <text
-       x="50.560715"
-       y="16.130398"
-       fill="#000000"
-       font-family="'Myriad Pro'"
-       font-size="5.6444px"
-       letter-spacing="0px"
-       stroke-width="0.26458"
-       word-spacing="0px"
-       style="line-height:1.25"
-       xml:space="preserve"
-       id="text83"><tspan
-         x="50.560715"
-         y="21.069286"
-         stroke-width="0.26458"
-         id="tspan83" /></text>
-    <g
-       aria-label="K"
-       id="g84">
-      <path
-         d="m 15.362365,16.572 0.63782,-0.6096 1.4168,2.032 h 0.7112 l -1.7328,-2.4158 1.6877,-1.6369 h -0.75636 l -1.9643,1.9643 v -1.9643 h -0.54751 v 4.0527 h 0.54751 z"
-         stroke-width="0.26458"
-         id="path83" />
-      <path
-         d="m 13.747539,15.64 h -2.1167 v -1.6764 h -0.54751 v 4.0527 h 0.54751 v -1.8909 h 2.1167 v 1.8909 h 0.54751 v -4.0527 h -0.54751 z"
-         stroke-width="0.26458"
-         id="path82" />
-    </g>
+   style="display:inline;fill:#8cf287;stroke-width:0.283219"
+   d="M 5.2916667,7.6879025 11.1125,6.8941523 V 9.5399855 L 5.2916666,10.333736 Z"
+   id="path6" />
   </g>
 </svg>
