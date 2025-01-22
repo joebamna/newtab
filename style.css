@@ -162,4 +162,6 @@ body
 .Links a:nth-child(13) i img[src]
 {
     content: var(--ahk);
+    width: 64px;
+    height: 64px;
 }
