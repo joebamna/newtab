@@ -146,5 +146,5 @@ body
 .Links a:nth-child(11) i img[src]
 {
     content: var(--githud) !important;
-    background-color: #0d1117 !important;
+    background-color: #212830 !important;
 }
