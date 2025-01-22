@@ -102,7 +102,8 @@ body
 .Links a:nth-child(11) i img[src]
 {
     content: var(--githud);
-    background-color: #262c36;
+    /*background-color: #262c36;*/
+    background-image: linear-gradient(to bottom, #22272e, #1c2128)
 }
 .Links a:nth-child(1) i img[src]
 {
