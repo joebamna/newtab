@@ -163,7 +163,5 @@ body
 {
     content: var(--ahk);
     padding: 8px 8px;
-    width: 56px !important;
-    height: 56px !important;
     background-color: #448e3aff;
 }
