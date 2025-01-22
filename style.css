@@ -57,7 +57,7 @@
 html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
 {
     /*background-image: var(--bg) !Important;*/
-    animation-duration: 120s;
+    animation-duration: 90s;
     animation-iteration-count: infinite;
     animation-name: scrollBg;
     animation-play-state: running;
