@@ -85,66 +85,66 @@ body
 }
 .Time hr
 {
-    display: block;
-    border-top: 0px solid transparent;
-    margin: 10px -30px;
+    display: block !important;
+    border-top: 0px solid transparent !important;
+    margin: 10px -30px !important;
 }
 .Links a i img
 {
-    transform: var(--movedown);
-    border-radius: 22.5%;
-    box-shadow: 0px 5px 10px 2px #00000050;
+    transform: var(--movedown) !important;
+    border-radius: 22.5% !important;
+    box-shadow: 0px 5px 10px 2px #00000050 !important;
 }
 .Links
 {
-    width: var(--linksw);
+    width: var(--linksw) !important;
 }
 .Links a:nth-child(1) i img[src]
 {
-    content: var(--youtube);
+    content: var(--youtube) !important;
 }
 .Links a:nth-child(2) i img[src]
 {
-    content: var(--newgrounds);
+    content: var(--newgrounds) !important;
 }
 .Links a:nth-child(3) i img[src]
 {
-    content: var(--gamebanana);
+    content: var(--gamebanana) !important;
     background-color: white;
 }
 .Links a:nth-child(4) i img[src]
 {
-    content: var(--bluesky);
+    content: var(--bluesky) !important;
 }
 .Links a:nth-child(5) i img[src]
 {
-    content: var(--twitter);
+    content: var(--twitter) !important;
 }
 .Links a:nth-child(6) i img[src]
 {
-    content: var(--twitch);
+    content: var(--twitch) !important;
 }
 .Links a:nth-child(7) i img[src]
 {
-    content: var(--ai);
+    content: var(--ai) !important;
 }
 .Links a:nth-child(8) i img[src]
 {
-    content: var(--reddit);
-    background-color: white;
-    border: 7px solid transparent
+    content: var(--reddit) !important;
+    background-color: white !important;
+    border: 7px solid transparent !important;
 }
 .Links a:nth-child(9) i img[src]
 {
-    content: var(--patreon);
+    content: var(--patreon) !important;
 }
 .Links a:nth-child(10) i img[src]
 {
-    content: var(--virustotal);
-    background-color: #fefefe;
+    content: var(--virustotal) !important;
+    background-color: #fefefe !important;
 }
 .Links a:nth-child(11) i img[src]
 {
     content: var(--githud) !important;
-    background-color: #0d1117;
+    background-color: #0d1117 !important;
 }
