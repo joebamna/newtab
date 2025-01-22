@@ -99,8 +99,9 @@ body
 {
     width: var(--linksw) !important;
 }
-.Links a i img[src]
+.Links a:nth-child(11) i img[src]
 {
+    content: var(--githud) !important;
     background-color: #262c36;
 }
 .Links a:nth-child(1) i img[src]
@@ -146,9 +147,4 @@ body
 {
     content: var(--virustotal) !important;
     background-color: #fefefe !important;
-}
-.Links a:nth-child(11) i img[src]
-{
-    content: var(--githud) !important;
-    background-color: #262c36;
 }
