@@ -17,7 +17,8 @@
 .Links a i img[src]
 {
     animation: rubberBand 1s;
-    animation-direction: forwards;
+    animation-direction: backwards;
+    animation-play-state: paused;
 
     /*transition: transform 0.05s ease;*/
     transform-origin: center center;
@@ -26,13 +27,14 @@
 
 .Links a i img[src]:hover
 {
-    animation-direction: backwards;
+    animation-direction: forwards;
+    animation-play-state: running;
     /*transform: matrix(1.4, 0, 0, 1.4, 0, 42.5);
     transition-delay: 0s;*/
 }
 /*
 .Links a i img[src]:not(:hover) {
-    transition-delay: 0s;
+    animation-direction: backwards;
 }
 
 .Links:has(a i img[src]:hover) a i img[src]:not(:hover) {
