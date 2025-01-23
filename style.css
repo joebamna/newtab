@@ -16,21 +16,15 @@
 
 .Links a i img[src]
 {
-    animation: rubberBand 1s;
-    animation-direction: backwards;
-    animation-play-state: paused;
-
-    /*transition: transform 0.05s ease;*/
+    transition: transform 0.05s ease;
     transform-origin: center center;
     overflow: hidden;
 }
 
 .Links a i img[src]:hover
 {
-    animation-direction: forwards;
-    animation-play-state: running;
-    /*transform: matrix(1.4, 0, 0, 1.4, 0, 42.5);
-    transition-delay: 0s;*/
+    transform: matrix(1.4, 0, 0, 1.4, 0, 42.5);
+    transition-delay: 0s;
 }
 /*
 .Links a i img[src]:not(:hover) {
