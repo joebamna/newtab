@@ -1,14 +1,34 @@
+@-moz-keyframes 	pulse_toonhud { 5% { -moz-transform: scale(1.1); } 		8% { -moz-transform: scale(1.0); } }
+@-webkit-keyframes 	pulse_toonhud { 5% { -webkit-transform: scale(1.1); } 	8% { -webkit-transformtransform: scale(1.0); } }
+@keyframes 			pulse_toonhud { 5% { transform: scale(1.1); } 			8% { transform: scale(1.0); } }
+
+@-moz-keyframes 	spin_toonhud { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes 	spin_toonhud { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes 			spin_toonhud { 100% { transform:rotate(360deg); } }
+
+@-moz-keyframes 	antispin_toonhud { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes 	antispin_toonhud { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes 			antispin_toonhud { 100% { transform:rotate(-360deg); } }
+
+@-moz-keyframes 	scrollBg_toonhud { 100% { background-position: -4095px 0; } }
+@-webkit-keyframes 	scrollBg_toonhud { 100% { background-position: -4095px 0; } }
+@keyframes 			scrollBg_toonhud { 100% { background-position: -4095px 0; } }
+
 .Links a i img[src]
 {
-    transition: transform 0.05s ease;
+    animation: rubberBand 1s;
+    animation-direction: forwards;
+
+    /*transition: transform 0.05s ease;*/
     transform-origin: center center;
     overflow: hidden;
 }
 
 .Links a i img[src]:hover
 {
-    transform: matrix(1.4, 0, 0, 1.4, 0, 42.5);
-    transition-delay: 0s;
+    animation-direction: backwards;
+    /*transform: matrix(1.4, 0, 0, 1.4, 0, 42.5);
+    transition-delay: 0s;*/
 }
 /*
 .Links a i img[src]:not(:hover) {
@@ -61,7 +81,7 @@ html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.f
     /*background-image: var(--bg) !Important;*/
     animation-duration: 240s;
     animation-iteration-count: infinite;
-    animation-name: scrollBg;
+    animation-name: scrollBg_toonhud;
     animation-play-state: running;
     animation-timing-function: linear;
 }
