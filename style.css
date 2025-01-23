@@ -14,6 +14,8 @@
 @-webkit-keyframes 	scrollBg_toonhud { 100% { background-position: -4095px 0; } }
 @keyframes 			scrollBg_toonhud { 100% { background-position: -4095px 0; } }
 
+/* <link rel="shortcut icon" href="https://addons.mozilla.org/favicon.ico?v=3"> */
+
 .Links a i img[src]
 {
     transition: transform 0.05s ease;
