@@ -39,6 +39,8 @@
 :root
 {
     --tflineshadow: 0px 0px 0 rgb(218, 218, 218), 0px 1px 0 rgb(191, 191, 191), 0px 2px 0 rgb(164, 164, 164), 0px 3px 0 rgb(137, 137, 137), 0px 4px 0 rgb(110, 110, 110), 0px 5px 0 rgb(83, 83, 83), 0px 6px 5px rgba(0, 0, 0, 0.6), 0px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, .2);
+    --tflineshadow2: 0px 0px 0 rgb(232,232,232),0px 1px 0 rgb(219,219,219),0px 2px 0 rgb(206,206,206),0px 3px 0 rgb(194,194,194),0px 4px 0 rgb(181,181,181),0px 5px 0 rgb(168,168,168),0px 6px 0 rgb(155,155,155),0px 7px 0 rgb(142,142,142),0px 8px 0 rgb(129,129,129),0px 9px 0 rgb(117,117,117),0px 10px 0 rgb(104,104,104),0px 11px 0 rgb(91,91,91),0px 12px 0 rgb(78,78,78), 0px 13px 0 rgb(65,65,65),0px 14px 13px rgba(0,0,0,0.6),0px 14px 1px rgba(0,0,0,0.5),0px 0px 13px rgba(0,0,0,.2);
+
     --movedown: translateY(41.5px);
 
     --beamfont: "Compacta";
@@ -92,13 +94,13 @@ body
 .Time .Digital
 {
     font-family: var(--timefont);
-    text-shadow: var(--tflineshadow);
+    text-shadow: var(--tflineshadow2);
     transform: var(--movedown);
 }
 .Time h3
 {
     font-family: var(--datefont);
-    text-shadow: var(--tflineshadow);
+    text-shadow: var(--tflineshadow2);
     transform: var(--movedown);
 }
 .Time hr::before
@@ -108,7 +110,7 @@ body
     transform-origin: center;
     letter-spacing: var(--beamspace);
     content: var(--beam);
-    text-shadow: var(--tflineshadow);
+    text-shadow: var(--tflineshadow2);
 }
 .Time hr
 {
