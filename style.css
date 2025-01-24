@@ -99,6 +99,13 @@ body
     text-shadow: var(--tflineshadow2);
 }
 
+.Time .Digital::selection,
+.Time h3::selection,
+.Time hr::before::selection
+{
+    text-shadow: var(--tflineshadow);
+}
+
 .Time .Digital
 {
     font-family: var(--timefont);
