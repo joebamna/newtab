@@ -99,9 +99,8 @@ body
 .Time hr::before
 {
     text-shadow: var(--tflineshadow);
+    user-select: none;
 }
-
-::selection{}
 
 .Time .Digital
 {
