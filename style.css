@@ -81,16 +81,17 @@
     --icloud: url("https://www.icloud.com/system/icloud.com/2506Project75/apple-touch-icon-120x120.png");
 }
 
-
+/*
 html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
 {
-    /*background-image: var(--bg) !Important;*/
+    background-image: var(--bg) !Important;
     animation-duration: 240s;
     animation-iteration-count: infinite;
     animation-name: scrollBg_toonhud;
     animation-play-state: running;
     animation-timing-function: linear;
 }
+*/
     
 
 body
