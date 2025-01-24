@@ -71,6 +71,8 @@
     --ahk: url("https://joebamna.github.io/newtab/ahk.svg");
     --pde: url("https://joebamna.github.io/newtab/pde.png");
     --toonhud: url("https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg");
+
+    --steamgrid: url("https://www.steamgriddb.com/static/img/logo-512.png");
         
     --bg: url("https://toonhud.com/images/skies/trainyard.jpg");
 }
@@ -205,4 +207,8 @@ body
     content: var(--toonhud);
     padding: 4px 4px;
     background-color: #a03532;
+}
+.Links a:nth-child(16) i img[src]
+{
+    content: var(--steamgrid);
 }
