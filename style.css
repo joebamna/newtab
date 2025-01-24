@@ -53,6 +53,8 @@
     --datefont: monospace;
     --mainfont: var(--datefont);
 
+    --bg: url("https://toonhud.com/images/skies/trainyard.jpg");
+
     --githudold2: url("https://github.com/fluidicon.png");
     --githud: url("https://joebamna.github.io/newtab/giticon.png");
     --gamebananaold: url("https://images.gamebanana.com/static/img/favicon/150x150.png");
@@ -73,8 +75,10 @@
     --toonhud: url("https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg");
 
     --steamgrid: url("https://www.steamgriddb.com/static/img/logo-512.png");
-        
-    --bg: url("https://toonhud.com/images/skies/trainyard.jpg");
+    --monkey: url("https://monkeytype.com/images/favicon/apple-touch-icon.png");
+    --viu: url("https://learn.viu.ca/d2l/loginh/img/viu-logo.png");
+    --gmail: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico");
+    --icloud: url("https://www.icloud.com/system/icloud.com/2506Project75/apple-touch-icon-120x120.png");
 }
 
 
@@ -210,4 +214,20 @@ body
 .Links a:nth-child(16) i img[src]
 {
     content: var(--steamgrid);
+}
+.Links a:nth-child(17) i img[src]
+{
+    content: var(--monkey);
+}
+.Links a:nth-child(18) i img[src]
+{
+    content: var(--viu);
+}
+.Links a:nth-child(19) i img[src]
+{
+    content: var(--gmail);
+}
+.Links a:nth-child(20) i img[src]
+{
+    content: var(--icloud);
 }
