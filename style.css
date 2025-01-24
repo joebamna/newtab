@@ -91,16 +91,22 @@ body
 {
     font-family: var(--mainfont);
 }
+
+.Time .Digital,
+.Time h3,
+.Time hr::before
+{
+    text-shadow: var(--tflineshadow2);
+}
+
 .Time .Digital
 {
     font-family: var(--timefont);
-    text-shadow: var(--tflineshadow2);
     transform: var(--movedown);
 }
 .Time h3
 {
     font-family: var(--datefont);
-    text-shadow: var(--tflineshadow2);
     transform: var(--movedown);
 }
 .Time hr::before
@@ -110,7 +116,6 @@ body
     transform-origin: center;
     letter-spacing: var(--beamspace);
     content: var(--beam);
-    text-shadow: var(--tflineshadow2);
 }
 .Time hr
 {
