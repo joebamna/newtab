@@ -47,8 +47,8 @@
 
     --linksw: ;
 
-    --timefont: "TF2 Build";
-    --datefont: "TF2 Secondary";
+    --timefont: monospace;
+    --datefont: monospace;
     --mainfont: var(--datefont);
 
     --githudold2: url("https://github.com/fluidicon.png");
