@@ -96,15 +96,10 @@ body
 .Time h3,
 .Time hr::before
 {
-    text-shadow: var(--tflineshadow2);
-}
-
-.Time .Digital::selection,
-.Time h3::selection,
-.Time hr::before::selection
-{
     text-shadow: var(--tflineshadow);
 }
+
+::selection{}
 
 .Time .Digital
 {
