@@ -228,6 +228,10 @@ body
 .Links a:nth-child(19) i img[src]
 {
     content: var(--gmail);
+    padding: 4px 4px;
+    background-color: white;
+    width: 64px;
+    height: 64px;
 }
 .Links a:nth-child(20) i img[src]
 {
