@@ -79,6 +79,7 @@
     --viu: url("https://learn.viu.ca/d2l/loginh/img/viu-logo.png");
     --gmail: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico");
     --icloud: url("https://www.icloud.com/system/icloud.com/2506Project75/apple-touch-icon-120x120.png");
+    --gd: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp");
 }
 
 /*
@@ -230,5 +231,5 @@ body
 }
 .Links a:nth-child(20) i img[src]
 {
-    content: var(--icloud);
+    content: var(--gd);
 }
