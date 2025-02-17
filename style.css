@@ -1,4 +1,4 @@
-@-moz-keyframes 	pulse_toonhud { 5% { -moz-transform: scale(1.1); } 		8% { -moz-transform: scale(1.0); } }
+/*@-moz-keyframes 	pulse_toonhud { 5% { -moz-transform: scale(1.1); } 		8% { -moz-transform: scale(1.0); } }
 @-webkit-keyframes 	pulse_toonhud { 5% { -webkit-transform: scale(1.1); } 	8% { -webkit-transformtransform: scale(1.0); } }
 @keyframes 			pulse_toonhud { 5% { transform: scale(1.1); } 			8% { transform: scale(1.0); } }
 
@@ -14,7 +14,7 @@
 @-webkit-keyframes 	scrollBg_toonhud { 100% { background-position: -4095px 0; } }
 @keyframes 			scrollBg_toonhud { 100% { background-position: -4095px 0; } }
 
-/* <link rel="shortcut icon" href="https://addons.mozilla.org/favicon.ico?v=3"> */
+ <link rel="shortcut icon" href="https://addons.mozilla.org/favicon.ico?v=3"> */
 
 .Links a i img[src]
 {
