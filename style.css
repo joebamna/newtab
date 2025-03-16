@@ -54,6 +54,7 @@
     --mainfont: var(--datefont);
 
     --bg: url("https://toonhud.com/images/skies/trainyard.jpg");
+    --bg2: background-color(#161616);
 
     --githudold2: url("https://github.com/fluidicon.png");
     --githud: url("https://joebamna.github.io/newtab/giticon.png");
@@ -82,17 +83,17 @@
     --gd: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp");
 }
 
-/*
+
 html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
 {
-    background-image: var(--bg) !Important;
-    animation-duration: 240s;
+    background-image: var(--bg2) !Important;
+    /*animation-duration: 240s;
     animation-iteration-count: infinite;
     animation-name: scrollBg_toonhud;
     animation-play-state: running;
-    animation-timing-function: linear;
+    animation-timing-function: linear;*/
 }
-*/
+
     
 
 body
