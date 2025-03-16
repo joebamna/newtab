@@ -54,7 +54,7 @@
     --mainfont: var(--datefont);
 
     --bg: url("https://toonhud.com/images/skies/trainyard.jpg");
-    --bg2: background-color(#0d1117);
+    --bg2: #0d1117;
 
     --githudold2: url("https://github.com/fluidicon.png");
     --githud: url("https://joebamna.github.io/newtab/giticon.png");
@@ -84,15 +84,15 @@
 }
 
 
-html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
+/*html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
 {
     background-image: var(--bg2) !Important;
-    /*animation-duration: 240s;
+    animation-duration: 240s;
     animation-iteration-count: infinite;
     animation-name: scrollBg_toonhud;
     animation-play-state: running;
-    animation-timing-function: linear;*/
-}
+    animation-timing-function: linear;
+}*/
 
     
 
