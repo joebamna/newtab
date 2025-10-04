@@ -234,3 +234,9 @@ body
 
 .Links a:nth-child(20) i img[src]
 {content: var(--gd);}
+
+.Links a:nth-child(21) i img[src]
+{content: var(--icloud);}
+
+.Links a:nth-child(22) i img[src]
+{content: var(--MEGA);}
