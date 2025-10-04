@@ -53,12 +53,12 @@
     --datefont: monospace;
     --mainfont: var(--datefont);
 
-    --bg: url("https://toonhud.com/images/skies/trainyard.jpg");
+    --bg: url("https://toonhud.com/images/skies/harvest_night.jpg");
     --bg2: #0d1117;
 
-    --githudold2: url("https://github.com/fluidicon.png");
+    /* --githudold2: url("https://github.com/fluidicon.png"); */
     --githud: url("https://joebamna.github.io/newtab/giticon.png");
-    --gamebananaold: url("https://images.gamebanana.com/static/img/favicon/150x150.png");
+    /* --gamebananaold: url("https://images.gamebanana.com/static/img/favicon/150x150.png"); */
     --gamebanana: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK8AAACvBAMAAAB5vJNGAAAAwnpUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHjabVBbEsMgCPz3FD2CPDR4HNOYmd6gxy8Ekoltd8YFWWZF0ni/9vQwIHDiskhttWYFN27YNZHs6AdD5oO9tIcGcz1dAmqJNJJfpUb/WYfLwEPXrNyM5BnCOguNw1++jNAD2USWb2HUwojQBQiD7t/Ktcly/8I68gzxk4xY5rF/7otubyv6DiEOAsrKROIDkJ2SqGsCykhgjdrQremon2a6kH97OpE+/u9Z03dTC70AAAGFaUNDUElDQyBwcm9maWxlAAB4nH2RO0jDUBSG/6ZKRSoOFhFxyNA62cEH4liqWAQLpa3QqoPJTV/QpCFJcXEUXAsOPharDi7Oujq4CoLgA8RdcFJ0kRLPTQotYjxwuR//Pf/PvecCQrPKVLMnBqiaZaQTcTGXXxUDr/BhGAFEMCkxU09mFrPwrK976qa6i/Is774/a0ApmAzwicQxphsW8Qbx7Kalc94nDrGypBCfE08YdEHiR67LLr9xLjks8MyQkU3PE4eIxVIXy13MyoZKPEMcVlSN8oWcywrnLc5qtc7a9+QvDBa0lQzXaY0hgSUkkYIIGXVUUIWFKO0aKSbSdB738I86/hS5ZHJVwMixgBpUSI4f/A9+z9YsTk+5ScE40Pti2x8RILALtBq2/X1s260TwP8MXGkdf60JzH2S3uho4SNgcBu4uO5o8h5wuQOMPOmSITmSn5ZQLALvZ/RNeWDoFuhfc+fWPsfpA5ClWS3fAAeHwHiJstc93t3XPbd/e9rz+wHh2XLT6BUK1QAADlVpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDQuNC4wLUV4aXYyIj4KIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cuZ2ltcC5vcmcveG1wLyIKICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICB4bXBNTTpEb2N1bWVudElEPSJnaW1wOmRvY2lkOmdpbXA6ZDgxZGRlZjItOGJmOS00NGE5LTg3NjktODdkYTc1NzQ5NGVmIgogICB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBhOGE1YjM5LWJiNmMtNDE1NS1hMGRiLWM4YjRiNWM4MTlhZCIKICAgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjFlOWM4Y2E0LTdjNTctNDA0OC04NzcxLTJlYzAzNGFhNjI2ZCIKICAgZGM6Rm9ybWF0PSJpbWFnZS9wbmciCiAgIEdJTVA6QVBJPSIyLjAiCiAgIEdJTVA6UGxhdGZvcm09IldpbmRvd3MiCiAgIEdJTVA6VGltZVN0YW1wPSIxNzM3NTMxNDgwMTM0ODc2IgogICBHSU1QOlZlcnNpb249IjIuMTAuMzgiCiAgIHRpZmY6T3JpZW50YXRpb249IjEiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDI1OjAxOjIxVDIzOjM4OjAwLTA4OjAwIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyNTowMToyMVQyMzozODowMC0wODowMCI+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAgICBzdEV2dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjAzYTlkMjc1LTY0MmYtNGFjMC04ZjQ1LTgzOWMyMTQ5ODdmMSIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iR2ltcCAyLjEwIChXaW5kb3dzKSIKICAgICAgc3RFdnQ6d2hlbj0iMjAyNS0wMS0yMVQyMzozMToxOCIvPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJzYXZlZCIKICAgICAgc3RFdnQ6Y2hhbmdlZD0iLyIKICAgICAgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDozNGY4YzZlOC00OGFmLTRiNWQtYjAzZi1lMWY2MjdkOGNlOGMiCiAgICAgIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkdpbXAgMi4xMCAoV2luZG93cykiCiAgICAgIHN0RXZ0OndoZW49IjIwMjUtMDEtMjFUMjM6Mzg6MDAiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2NyaXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+GtC+xAAAADBQTFRFd3MAAAAl////AAAATEAO46cF7K4G+bgL+cAn+s0w+uE8+uhO++tj++xr/PCQ/POkWFK4jAAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH6QEWByYAcxxUuAAAAQBJREFUaN7t2tEJwjAQgOGCCwkKguCT3UCcQHAD6Qg6gnEC6QZSFxB0ASUj2BX0DoocSKSo1Lb+/2t731toSBNFRERE1KJ6pi4wcIPhfhzHY2DgBsNax64SYGDgZ3iYpul2JX0TBwb+FZxI38KBgSuC1Rh578/AwMDAwMDAwHWEdT6XrsDADYPtYcpNEtNfsizbOefWwMD1gnuhFMuLFD1KhwJdKjqXgIH/AJbXnaypbC+zJ286FrmiB1piOQMDVwzr90DnNmkgfbgy6GIqAQPXB7b4yxKDTkpurYCB2wDbHdEgCaQbn9kbl7yAgSuE7W/RYJ9c7gIGrhAmIiKiEt0B0fL6dgOxXmgAAAAASUVORK5CYII=");
     --virustotal: url("https://www.virustotal.com/gui/images/manifest/icon-192x192.png");
     --youtube: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/6c/ef/c76cef07-13b8-be48-8698-56077a64d2d3/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220.png/246x0w.webp");
@@ -74,12 +74,13 @@
     --ahk: url("https://joebamna.github.io/newtab/ahk.svg");
     --pde: url("https://joebamna.github.io/newtab/pde.png");
     --toonhud: url("https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg");
+    --icloud: url("https://joebamna.github.io/newtab/icloud_dark.png");
+    --MEGA: url("https://joebamna.github.io/newtab/mega.png");
 
     --steamgrid: url("https://www.steamgriddb.com/static/img/logo-512.png");
     --monkey: url("https://monkeytype.com/images/favicon/apple-touch-icon.png");
     --viu: url("https://learn.viu.ca/d2l/loginh/img/viu-logo.png");
     --gmail: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico");
-    --icloud: url("https://www.icloud.com/system/icloud.com/2506Project75/apple-touch-icon-120x120.png");
     --gd: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp");
 }
 
@@ -143,59 +144,57 @@ body
 {
     width: var(--linksw);
 }
+
+
 .Links a:nth-child(11) i img[src]
 {
     content: var(--githud);
     background-image: linear-gradient(to bottom, #353c47, #0f1216);
 }
+
 .Links a:nth-child(1) i img[src]
-{
-    content: var(--youtube);
-}
+{content: var(--youtube);}
+
 .Links a:nth-child(2) i img[src]
-{
-    content: var(--newgrounds);
-}
+{content: var(--newgrounds);}
+
 .Links a:nth-child(3) i img[src]
 {
     content: var(--gamebanana);
     background-color: white;
 }
+
 .Links a:nth-child(4) i img[src]
-{
-    content: var(--bluesky);
-}
+{content: var(--bluesky);}
+
 .Links a:nth-child(5) i img[src]
-{
-    content: var(--twitter);
-}
+{content: var(--twitter);}
+
 .Links a:nth-child(6) i img[src]
-{
-    content: var(--twitch);
-}
-.Links a:nth-child(7) i img[src]
-{
-    content: var(--ai);
-}
-.Links a:nth-child(8) i img[src]
 {
     content: var(--reddit);
     background-color: white;
     border: 7px solid transparent;
 }
+
+.Links a:nth-child(7) i img[src]
+{content: var(--ai);}
+
+.Links a:nth-child(8) i img[src]
+{content: var(--twitch);}
+
 .Links a:nth-child(9) i img[src]
-{
-    content: var(--patreon);
-}
+{content: var(--patreon);}
+
 .Links a:nth-child(10) i img[src]
 {
     content: var(--virustotal);
     background-color: #fefefe;
 }
+
 .Links a:nth-child(12) i img[src]
-{
-    content: var(--twiki);
-}
+{content: var(--twiki);}
+
 .Links a:nth-child(13) i img[src]
 {
     content: var(--ahk);
@@ -204,28 +203,26 @@ body
     width: 64px;
     height: 64px;
 }
+
 .Links a:nth-child(14) i img[src]
-{
-    content: var(--pde);
-}
+{content: var(--pde);}
+
 .Links a:nth-child(15) i img[src]
 {
     content: var(--toonhud);
     padding: 4px 4px;
     background-color: #a03532;
 }
+
 .Links a:nth-child(16) i img[src]
-{
-    content: var(--steamgrid);
-}
+{content: var(--steamgrid);}
+
 .Links a:nth-child(17) i img[src]
-{
-    content: var(--monkey);
-}
+{content: var(--monkey);}
+
 .Links a:nth-child(18) i img[src]
-{
-    content: var(--viu);
-}
+{content: var(--viu);}
+
 .Links a:nth-child(19) i img[src]
 {
     content: var(--gmail);
@@ -234,7 +231,6 @@ body
     width: 64px;
     height: 64px;
 }
+
 .Links a:nth-child(20) i img[src]
-{
-    content: var(--gd);
-}
+{content: var(--gd);}
