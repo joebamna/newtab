@@ -8,5 +8,10 @@
     "ai": 7,
     "patreon": 8,
     "virustotal": 9,
-    "githud": 10
+
+    "githud": 10,
+
+    "gd": 20,
+    "MEGA": 21,
+    "icloud": 22
 }
