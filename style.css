@@ -1,16 +1,24 @@
 @import url("https://joebamna.github.io/newtab/style_base.css");
 
 .Links > a[href="https://mega.nz/fm/QNJGiZZa"] > i > img[src]{content: var(--MEGA)}
+.Links > a[href="https://autohotkey.com/docs/v2/"] > i > img[src]{content: var(--ahk);padding: 8px 8px;background-color: #448e3aff;width: 64px;height: 64px;}
 .Links > a[href="https://chat.openai.com/"] > i > img[src]{content: var(--ai)}
 .Links > a[href="https://bsky.app/"] > i > img[src]{content: var(--bluesky)}
 .Links > a[href="https://gamebanana.com/games/297"] > i > img[src]{content: var(--gamebanana);background-color: white;}
 .Links > a[href="https://gdbrowser.com/search"] > i > img[src]{content: var(--gd)}
 .Links > a[href="https://github.com/joebamna"] > i > img[src]{content: var(--githud);background-image: linear-gradient(to bottom, #353c47, #0f1216);}
+.Links > a[href="https://mail.google.com/mail/u/0/#inboxh"] > i > img[src]{content: var(--gmail);padding: 4px 4px;background-color: white;width: 64px;height: 64px;}
 .Links > a[href="https://icloud.com/"] > i > img[src]{content: var(--icloud)}
+.Links > a[href="https://monkeytype.com/"] > i > img[src]{content: var(--monkey)}
 .Links > a[href="https://newgrounds.com/"] > i > img[src]{content: var(--newgrounds)}
 .Links > a[href="https://www.patreon.com/home"] > i > img[src]{content: var(--patreon)}
+.Links > a[href="https://processing.org/"] > i > img[src]{content: var(--pde)}
 .Links > a[href="https://reddit.com/"] > i > img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent;}
+.Links > a[href="https://steamgriddb.com/"] > i > img[src]{content: var(--steamgrid)}
+.Links > a[href="https://toonhud.com/"] > i > img[src]{content: var(--toonhud);padding: 4px 4px;background-color: #a03532;}
+.Links > a[href="https://terraria.wiki.gg/wiki/Terraria_Wiki"] > i > img[src]{content: var(--twiki)}
 .Links > a[href="https://twitch.tv/"] > i > img[src]{content: var(--twitch)}
 .Links > a[href="https://x.com"] > i > img[src]{content: var(--twitter)}
 .Links > a[href="https://virustotal.com/gui/home/upload"] > i > img[src]{content: var(--virustotal);background-color: #fefefe;}
+.Links > a[href="https://learn.viu.ca/d2l/loginh/?target=%2fd2l%2fhome"] > i > img[src]{content: var(--viu)}
 .Links > a[href="https://youtube.com/"] > i > img[src]{content: var(--youtube)}
