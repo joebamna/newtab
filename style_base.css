@@ -150,4 +150,4 @@ body
     width: var(--linksw);
 }
 
-.Links > a{content: var(--broken-link)}
+.Links > a > i > img[src]{content: var(--broken-link)}
