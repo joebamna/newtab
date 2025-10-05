@@ -66,7 +66,7 @@ class App:
     def __str__(self) -> str:
         prop_count = len(self.props)
 
-        r = f""".Links a:nth-child({app_order[self.ID]}) i img[src]
+        r = f""".Links > a[href="{app_href[self.ID]}"] > i > img[src]
 {{{nil.join(self.props)}}}"""
         
         if prop_count == 0:
@@ -83,8 +83,8 @@ style = simple(
 with open('style_base.css', 'r') as f:
     style.base = f.read()
 
-with open('app_order.json', 'r') as f:
-    app_order = json.load(f)
+with open('app_href.json', 'r') as f:
+    app_href = json.load(f)
 
 for appfile in os.listdir('APPS'):
     style.apps.append(App(appfile))

@@ -1,15 +1,16 @@
 @import url("https://joebamna.github.io/newtab/style_base.css");
 
-.Links a:nth-child(21) i img[src]{content: var(--MEGA)}
-.Links a:nth-child(7) i img[src]{content: var(--ai)}
-.Links a:nth-child(4) i img[src]{content: var(--bluesky)}
-.Links a:nth-child(3) i img[src]{content: var(--gamebanana);background-color: white;}
-.Links a:nth-child(20) i img[src]{content: var(--gd)}
-.Links a:nth-child(10) i img[src]{content: var(--githud);background-image: linear-gradient(to bottom, #353c47, #0f1216);}
-.Links a:nth-child(22) i img[src]{content: var(--icloud)}
-.Links a:nth-child(2) i img[src]{content: var(--newgrounds)}
-.Links a:nth-child(8) i img[src]{content: var(--patreon)}
-.Links a:nth-child(6) i img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent;}
-.Links a:nth-child(5) i img[src]{content: var(--twitter)}
-.Links a:nth-child(9) i img[src]{content: var(--virustotal);background-color: #fefefe;}
-.Links a:nth-child(1) i img[src]{content: var(--youtube)}
+.Links > a[href="https://mega.nz/fm/QNJGiZZa"] > i > img[src]{content: var(--MEGA)}
+.Links > a[href="https://chat.openai.com/"] > i > img[src]{content: var(--ai)}
+.Links > a[href="https://bsky.app/"] > i > img[src]{content: var(--bluesky)}
+.Links > a[href="https://gamebanana.com/games/297"] > i > img[src]{content: var(--gamebanana);background-color: white;}
+.Links > a[href="https://gdbrowser.com/search"] > i > img[src]{content: var(--gd)}
+.Links > a[href="https://github.com/joebamna"] > i > img[src]{content: var(--githud);background-image: linear-gradient(to bottom, #353c47, #0f1216);}
+.Links > a[href="https://icloud.com/"] > i > img[src]{content: var(--icloud)}
+.Links > a[href="https://newgrounds.com/"] > i > img[src]{content: var(--newgrounds)}
+.Links > a[href="https://www.patreon.com/home"] > i > img[src]{content: var(--patreon)}
+.Links > a[href="https://reddit.com/"] > i > img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent;}
+.Links > a[href="https://twitch.tv/"] > i > img[src]{content: var(--twitch)}
+.Links > a[href="https://x.com"] > i > img[src]{content: var(--twitter)}
+.Links > a[href="https://virustotal.com/gui/home/upload"] > i > img[src]{content: var(--virustotal);background-color: #fefefe;}
+.Links > a[href="https://youtube.com/"] > i > img[src]{content: var(--youtube)}
