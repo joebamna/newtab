@@ -1,0 +1,2 @@
+$content;
+background-image: linear-gradient(to bottom, #353c47, #0f1216);

@@ -1,7 +1,11 @@
 @import url("https://joebamna.github.io/newtab/style_base.css");
 
+.Links a:nth-child(7) i img[src]{content: var(--ai)}
 .Links a:nth-child(4) i img[src]{content: var(--bluesky)}
 .Links a:nth-child(3) i img[src]{content: var(--gamebanana);background-color: white;}
 .Links a:nth-child(2) i img[src]{content: var(--newgrounds)}
+.Links a:nth-child(8) i img[src]{content: var(--patreon)}
+.Links a:nth-child(6) i img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent;}
 .Links a:nth-child(5) i img[src]{content: var(--twitter)}
+.Links a:nth-child(9) i img[src]{content: var(--virustotal);background-color: #fefefe;}
 .Links a:nth-child(1) i img[src]{content: var(--youtube)}
