@@ -2,7 +2,7 @@ import os
 import sys
 from types import SimpleNamespace as simple
 from time import sleep as zzz
-from typing import Any, Literal
+from typing import Any, Literal, SupportsIndex
 import json
 
 nil = ''
@@ -25,6 +25,11 @@ no = '✕'
 na = 'N/A'
 indent = (sp * 4)
 
+cssIDs = simple(
+    CONTENT='$content',
+    APP='$appid'
+)
+
 def clear(Maybe: bool = True):
     if Maybe:
         os.system('cls')
@@ -35,7 +40,10 @@ def rel(Maybe: bool = True):
         os.execv(sys.executable, [sys.executable] + sys.argv)
 
 def css_list_squash(css: list[str]) -> str:
-    return nil.join([part.replace(newl, nil) for part in css])
+    return newl.join([part.replace(newl, nil) for part in css])
+
+def list_replace(parts: list[str], old: str, new: str, count: SupportsIndex = -1, /) -> list[str]:
+    return [part.replace(old, new, count) for part in parts]
 
 class App:
     def __init__(self, f: str | Any) -> None:
@@ -45,18 +53,21 @@ class App:
         with open(os.path.join('APPS', f), 'r') as f:
             self.props = f.read().splitlines()
 
+        #file is empty
         if self.props == []:
-            self.props = [f'content: APPID;']
+            self.props = [cssIDs.CONTENT]
 
-        self.props = [prop.replace('APPID', f'var(--{self.ID})') for prop in self.props]
+        #the 'content: var(--AppID)' placeholder
+        self.props = list_replace(self.props, cssIDs.CONTENT, f'content: {cssIDs.APP}')
+
+        #the AppID placeholder
+        self.props = list_replace(self.props, cssIDs.APP, f'var(--{self.ID})')
     
     def __str__(self) -> str:
         prop_count = len(self.props)
 
         r = f""".Links a:nth-child({app_order[self.ID]}) i img[src]
-{{
-{indent if prop_count > 1 else nil}{newl + indent.join(self.props)}
-}}"""
+{{{nil.join(self.props)}}}"""
         
         if prop_count == 0:
             r = r.replace(newl, nil)
@@ -76,9 +87,11 @@ with open('app_order.json', 'r') as f:
     app_order = json.load(f)
 
 for appfile in os.listdir('APPS'):
-    style.apps.append(f"{App(appfile)}")
+    style.apps.append(App(appfile))
+
+style.apps = sorted(style.apps, key=lambda a: a.ID)
 
 with open('style.css', 'r+') as f:
     f.seek(0)
     f.truncate()
-    f.write((newl * 2).join([base_header, css_list_squash(style.apps)]))
+    f.write((newl * 2).join([base_header, css_list_squash([f"{a}" for a in style.apps])]))
