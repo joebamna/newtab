@@ -1,3 +1,0 @@
-$content;
-padding: 4px 4px;
-background-color: #a03532;

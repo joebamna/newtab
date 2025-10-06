@@ -26,8 +26,8 @@ na = 'N/A'
 indent = (sp * 4)
 
 cssIDs = simple(
-    CONTENT='$content',
-    APP='$appid'
+    IMG='$img',
+    APP='$id'
 )
 
 def clear(Maybe: bool = True):
@@ -45,34 +45,54 @@ def css_list_squash(css: list[str]) -> str:
 def list_replace(parts: list[str], old: str, new: str, count: SupportsIndex = -1, /) -> list[str]:
     return [part.replace(old, new, count) for part in parts]
 
+def dict_replace(kv: dict[str, str], old: str, new: str, count: SupportsIndex = -1, /) -> dict[str, str]:
+    return {k: v.replace(old, new, count) for k, v in kv.items()}
+
+def css_str(kv: dict[str, str]) -> str:
+    r = []
+
+    for k, v in kv.items():
+        r.append(f'{k}: {v}')
+
+    return semi.join(r)
+
+
 class App:
-    def __init__(self, f: str | Any) -> None:
-        self.ID = f.removesuffix('.txt')
-        self.props = []
+    def __init__(self, ID: str, data) -> None:
+        self.ID = ID
+        self.href = data['href']
+        self.props = data.get('props', {'content': cssIDs.IMG})
 
-        with open(os.path.join('APPS', f), 'r') as f:
-            self.props = f.read().splitlines()
+        self.props = dict_replace(self.props, cssIDs.IMG, f"var(--{cssIDs.APP})")
+        self.props = dict_replace(self.props, cssIDs.APP, self.ID)
 
-        #file is empty
-        if self.props == []:
-            self.props = [cssIDs.CONTENT]
+        # self.ID = f.removesuffix('.txt')
+        # self.props = []
 
-        #the 'content: var(--AppID)' placeholder
-        self.props = list_replace(self.props, cssIDs.CONTENT, f'content: {cssIDs.APP}')
+        # with open(os.path.join('APPS', f), 'r') as f:
+        #     self.props = f.read().splitlines()
 
-        #the AppID placeholder
-        self.props = list_replace(self.props, cssIDs.APP, f'var(--{self.ID})')
+        # #file is empty
+        # if self.props == []:
+        #     self.props = [cssIDs.APPIMG]
+
+        # #the 'content: var(--AppID)' placeholder
+        # self.props = list_replace(self.props, cssIDs.APPIMG, f'content: {cssIDs.APP}')
+
+        # #the AppID placeholder
+        # self.props = list_replace(self.props, cssIDs.APP, f'var(--{self.ID})')
     
     def __str__(self) -> str:
-        prop_count = len(self.props)
+        r = f'.Links > a[href="{self.href}"] > i > img[src]'
+        p = css_str(self.props)
 
-        r = f""".Links > a[href="{app_href[self.ID]}"] > i > img[src]
-{{{nil.join(self.props)}}}"""
-        
-        if prop_count == 0:
-            r = r.replace(newl, nil)
-        
-        return r
+        # if False:
+        #     p = p.replace(semi, semi + newl + indent)
+
+        # r += f'{newl}{{{p}{newl}}}{newl}'
+
+        r += f'{{{p}}}'
+        return r + newl
 
 base_header = '@import url("https://joebamna.github.io/newtab/style_base.css");'
 
@@ -83,15 +103,15 @@ style = simple(
 with open('style_base.css', 'r') as f:
     style.base = f.read()
 
-with open('app_href.json', 'r') as f:
-    app_href = json.load(f)
+with open('apps.json', 'r') as f:
+    appdata = json.load(f)
 
-for appfile in os.listdir('APPS'):
-    style.apps.append(App(appfile))
+for k, v in appdata.items():
+    style.apps.append(App(k, v))
 
 style.apps = sorted(style.apps, key=lambda a: a.ID)
 
 with open('style.css', 'r+') as f:
     f.seek(0)
     f.truncate()
-    f.write((newl * 2).join([base_header, css_list_squash([f"{a}" for a in style.apps])]))
+    f.write((newl * 2).join([base_header, nil.join([str(a) for a in style.apps])]))
