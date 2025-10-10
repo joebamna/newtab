@@ -155,5 +155,10 @@
     "steamdb":
     {
         "href": "https://steamdb.info/"
+    },
+
+    "python":
+    {
+        "href": "https://docs.python.org/3.11/"
     }
 }

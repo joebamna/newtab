@@ -13,6 +13,7 @@
 .Links > a[href="https://newgrounds.com/"] > i > img[src]{content: var(--newgrounds)}
 .Links > a[href="https://www.patreon.com/home"] > i > img[src]{content: var(--patreon)}
 .Links > a[href="https://processing.org/"] > i > img[src]{content: var(--pde)}
+.Links > a[href="https://docs.python.org/3.11/"] > i > img[src]{content: var(--python)}
 .Links > a[href="https://reddit.com/"] > i > img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent}
 .Links > a[href="https://steamdb.info/"] > i > img[src]{content: var(--steamdb)}
 .Links > a[href="https://steamgriddb.com/"] > i > img[src]{content: var(--steamgrid)}
