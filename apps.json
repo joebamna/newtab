@@ -47,7 +47,7 @@
 
     "patreon":
     {
-        "href": "https://www.patreon.com/home"
+        "href": "https://patreon.com/home"
     },
 
     "virustotal":
@@ -160,5 +160,10 @@
     "python":
     {
         "href": "https://docs.python.org/3.11/"
+    },
+
+    "beatleader":
+    {
+        "href": "https://beatleader.com/"
     }
 }
