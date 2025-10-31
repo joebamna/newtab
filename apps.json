@@ -170,5 +170,10 @@
     "fab":
     {
         "href": "https://sketchfab.com/store"
+    },
+
+    "pypi":
+    {
+        "href": "https://pypi.org/"
     }
 }

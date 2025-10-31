@@ -115,3 +115,5 @@ with open('style.css', 'r+') as f:
     f.seek(0)
     f.truncate()
     f.write((newl * 2).join([base_header, nil.join([str(a) for a in style.apps])]))
+
+print(newl+'DONE')
