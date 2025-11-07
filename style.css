@@ -15,7 +15,7 @@
 .Links > a[href="https://newgrounds.com/"] > i > img[src]{content: var(--newgrounds)}
 .Links > a[href="https://patreon.com/home"] > i > img[src]{content: var(--patreon)}
 .Links > a[href="https://processing.org/"] > i > img[src]{content: var(--pde)}
-.Links > a[href="https://pypi.org/"] > i > img[src]{content: var(--pypi)}
+.Links > a[href="https://pypi.org/"] > i > img[src]{content: var(--pypi);padding: 4px 4px;background-color: #222222;width: 64px;height: 64px}
 .Links > a[href="https://docs.python.org/3.11/"] > i > img[src]{content: var(--python)}
 .Links > a[href="https://reddit.com/"] > i > img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent}
 .Links > a[href="https://steamdb.info/"] > i > img[src]{content: var(--steamdb)}
