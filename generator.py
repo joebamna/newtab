@@ -5,6 +5,8 @@ from time import sleep as zzz
 from typing import Any, Literal, SupportsIndex
 import json
 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 nil = ''
 sp = ' '
 bsl = '\\'

@@ -15,7 +15,7 @@
 .Links > a[href="https://newgrounds.com/"] > i > img[src]{content: var(--newgrounds)}
 .Links > a[href="https://patreon.com/home"] > i > img[src]{content: var(--patreon)}
 .Links > a[href="https://processing.org/"] > i > img[src]{content: var(--pde)}
-.Links > a[href="https://pypi.org/"] > i > img[src]{content: var(--pypi);padding: 4px 4px;background-color: #222222;width: 64px;height: 64px}
+.Links > a[href="https://pypi.org/"] > i > img[src]{content: var(--pypi);padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
 .Links > a[href="https://docs.python.org/3.11/"] > i > img[src]{content: var(--python)}
 .Links > a[href="https://reddit.com/"] > i > img[src]{content: var(--reddit);background-color: white;border: 7px solid transparent}
 .Links > a[href="https://steamdb.info/"] > i > img[src]{content: var(--steamdb)}
@@ -26,4 +26,4 @@
 .Links > a[href="https://x.com"] > i > img[src]{content: var(--twitter)}
 .Links > a[href="https://virustotal.com/gui/home/upload"] > i > img[src]{content: var(--virustotal);background-color: #fefefe}
 .Links > a[href="https://learn.viu.ca/d2l/loginh/?target=%2fd2l%2fhome"] > i > img[src]{content: var(--viu)}
-.Links > a[href="https://youtube.com/"] > i > img[src]{content: var(--youtube)}
+.Links > a[href="https://youtube.com/playlist?list=PLCWh4ltZCZlz9VNrAbPaoWJXwqr2Rl1rg"] > i > img[src]{content: var(--youtube)}
