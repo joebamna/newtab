@@ -5,6 +5,7 @@
 .Links > a[href="https://chat.openai.com/"] > i > img[src]{content: var(--ai)}
 .Links > a[href="https://beatleader.com/"] > i > img[src]{content: var(--beatleader)}
 .Links > a[href="https://bsky.app/"] > i > img[src]{content: var(--bluesky)}
+.Links > a[href="https://beatsaver.com/"] > i > img[src]{content: var(--bsmaps);padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
 .Links > a[href="https://sketchfab.com/store"] > i > img[src]{content: var(--fab)}
 .Links > a[href="https://gamebanana.com/games/297"] > i > img[src]{content: var(--gamebanana);background-color: white}
 .Links > a[href="https://gdbrowser.com/search"] > i > img[src]{content: var(--gd)}

@@ -183,5 +183,18 @@
             "width": "64px",
             "height": "64px"
         }
+    },
+
+    "bsmaps":
+    {
+        "href": "https://beatsaver.com/",
+        "props": 
+        {
+            "content": "$img",
+            "padding": "8px 8px",
+            "background-color": "#222222",
+            "width": "64px",
+            "height": "64px"
+        }
     }
 }
