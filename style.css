@@ -2,7 +2,7 @@
 
 .Links > a[href="https://mega.nz/fm/QNJGiZZa"] > i > img[src]{content: var(--MEGA)}
 .Links > a[href="https://autohotkey.com/docs/v2/"] > i > img[src]{content: var(--ahk);padding: 8px 8px;background-color: #448e3aff;width: 64px;height: 64px}
-.Links > a[href="https://chat.openai.com/"] > i > img[src]{content: var(--ai)}
+.Links > a[href="https://gemini.google.com/app"] > i > img[src]{background-color: url('https://ssl.gstatic.com/gb/images/sprites/p_2x_2cf07af17bf9.png');background-size: 53px 3011px}
 .Links > a[href="https://beatleader.com/"] > i > img[src]{content: var(--beatleader)}
 .Links > a[href="https://bsky.app/"] > i > img[src]{content: var(--bluesky)}
 .Links > a[href="https://beatsaver.com/"] > i > img[src]{content: var(--bsmaps);padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
