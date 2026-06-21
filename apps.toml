@@ -1,0 +1,223 @@
+[Youtube]
+href = 'https://youtube.com/playlist?list=PLCWh4ltZCZlz9VNrAbPaoWJXwqr2Rl1rg'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/6c/ef/c76cef07-13b8-be48-8698-56077a64d2d3/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220.png/246x0w.webp'
+
+[Newgrounds]
+href = 'https://newgrounds.com/'
+img = 'https://img.ngfiles.com/misc/ios/apple-touch-icon-72x72.png'
+
+[GameBanana]
+href = 'https://gamebanana.com/games/297'
+img = '.png'
+[GameBanana.props]
+background-color = 'white'
+
+[Bluesky]
+href = 'https://bsky.app/'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/d1/cd/d3d1cdbd-2b80-5f3b-721c-9cf2c711bdab/AppIcon-0-0-1x_U007ephone-0-85-220.png/246x0w.webp'
+
+[Twitter]
+href = 'https://x.com'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/cf/d9/e8cfd9cf-b79f-4e1c-1e15-b759e0639611/ProductionAppIcon-0-0-1x_U007emarketing-0-7-0-0-0-85-220.png/246x0w.webp'
+
+[Reddit]
+href = 'https://reddit.com/'
+img = 'https://www.redditstatic.com/shreddit/assets/favicon/192x192.png'
+[Reddit.props]
+background-color = 'white'
+border = '7px solid transparent'
+
+[Gemini]
+href = "https://gemini.google.com/app"
+img = "https://icons.duckduckgo.com/ip3/gemini.google.com.ico"
+[Gemini.props]
+background-image = 'linear-gradient(to bottom, white, #D1D1D1)'
+padding = '8px 8px'
+width = '64px'
+height = '64px'
+
+[Patreon]
+href = 'https://patreon.com/home'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/dc/97/18dc973a-4b48-1658-08f6-88944a12896e/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp'
+
+[Virustotal]
+href = 'https://virustotal.com/gui/home/upload'
+img = 'https://www.virustotal.com/gui/images/manifest/icon-192x192.png'
+[Virustotal.props]
+background-color = '#fefefe'
+
+[Github]
+href = 'https://github.com/joebamna'
+img = '.png'
+[Github.props]
+background-image = 'linear-gradient(to bottom, #353c47, #0f1216)'
+
+[Twitch]
+href = 'https://twitch.tv/'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/15/24/a41524d9-3c85-4af5-92e9-c8b91fa22800/TwitchAppIcon-0-0-1x_U007emarketing-0-7-0-0-0-0-85-220.png/246x0w.webp'
+
+[TerrariaWiki]
+href = 'https://terraria.wiki.gg/wiki/Terraria_Wiki'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/62/14/c5/6214c563-eb00-0f93-e64b-c819c4080231/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp'
+
+[AutoHotkey]
+href = 'https://autohotkey.com/docs/v2/'
+img = '.svg'
+[AutoHotkey.props]
+background-color = '#448e3aff'
+padding = '8px 8px'
+width = '64px'
+height = '64px'
+
+[ProcessingJava]
+href = 'https://processing.org/'
+img = '.png'
+
+[ToonHUD]
+href = 'https://toonhud.com/'
+img = 'https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg'
+[ToonHUD.props]
+padding = '4px 4px'
+background-color = '#a03532'
+
+[SteamGridDB]
+href = 'https://steamgriddb.com/'
+img = 'https://www.steamgriddb.com/static/img/logo-512.png'
+
+[MonkeyType]
+href = 'https://monkeytype.com/'
+img = 'https://monkeytype.com/images/favicon/apple-touch-icon.png'
+
+[VIULearn]
+href = 'https://learn.viu.ca/d2l/loginh/?target=%2fd2l%2fhome'
+img = 'https://learn.viu.ca/d2l/loginh/img/viu-logo.png'
+
+[Gmail]
+href = 'https://mail.google.com/mail/u/0/#inboxh'
+img = 'https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico'
+[Gmail.props]
+padding = '4px 4px'
+background-color = 'white'
+width = '64px'
+height = '64px'
+
+[GDBrowser]
+href = 'https://gdbrowser.com/search'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp'
+
+[MEGA]
+href = "https://mega.nz/fm/QNJGiZZa"
+img = '.png'
+
+[iCloud]
+href = 'https://icloud.com/'
+img = 'iCloud-Dark.png'
+
+[SteamDB]
+href = 'https://steamdb.info/'
+img = 'https://steamdb.info/static/logos/512px.png'
+
+[PythonDocs]
+href = 'https://docs.python.org/3.11/'
+img = '.png'
+
+[BeatLeader]
+href = 'https://beatleader.com/'
+img = 'https://avatars.githubusercontent.com/u/98843512?v=4'
+
+[Sketchfab]
+href = 'https://sketchfab.com/feed'
+img = 'https://static.sketchfab.com/static/builds/web/dist/static/assets/images/favicon/e59d7f2ff579bbf9d20771b3d4d8c6a7-v2.png'
+
+[PyPI]
+href = 'https://pypi.org/'
+img = 'https://pypi.org/static/images/logo-small.8998e9d1.svg'
+[PyPI.props]
+padding = '8px 8px'
+background-color = '#222222'
+width = '64px'
+height = '64px'
+
+[BeatSaver]
+href = 'https://beatsaver.com/'
+img = '.png'
+[BeatSaver.props]
+padding = '8px 8px'
+background-color = '#222222'
+width = '64px'
+height = '64px'
+
+[Pygame]
+href = 'https://www.pygame.org/docs/'
+img = '.png'
+[Pygame.props]
+background-image = 'linear-gradient(to bottom, #353c47, #0f1216)'
+
+[Textual]
+href = 'https://textual.textualize.io/'
+img = '.svg'
+[Textual.props]
+padding = '4px 4px'
+background-color = '#14151a'
+width = '64px'
+height = '64px'
+
+[AppStore]
+href = 'https://apps.apple.com/ca/iphone/today'
+img = 'https://apps.apple.com/assets/favicon/favicon-180.png'
+
+[BalatroWiki]
+href = 'https://balatrowiki.org/'
+img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/0c/6dd30caf-f830-22d5-ba44-448cdff0df30/iOS_AppIcon_Premium-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp'
+
+[GameJolt]
+href = 'https://gamejolt.com/games'
+img = 'https://s.gjcdn.net/assets/Bvg5_7wI.png'
+[GameJolt.props]
+padding = '3px 3px'
+background-color = '#292929'
+width = '64px'
+height = '64px'
+
+[Itch]
+href = 'https://itch.io/'
+img = 'https://static.itch.io/images/itchio-textless-white.svg'
+[Itch.props]
+padding = '4px 4px'
+background-color = '#c54f4f'
+width = '64px'
+height = '64px'
+
+[Rust]
+href = 'https://rust-lang.org/learn/'
+img = 'https://rust-lang.org/static/images/rust-logo-blk.svg'
+[Rust.props]
+padding = '4px 4px'
+background-color = 'white'
+width = '64px'
+height = '64px'
+
+[Lua]
+href = 'https://www.lua.org/manual/5.1/'
+img = 'https://www.lua.org/images/logo.gif'
+[Lua.props]
+padding = '4px 4px'
+background-color = 'white'
+width = '64px'
+height = '64px'
+
+[LOVE]
+href = 'https://love2d.org/wiki/Main_Page'
+img = '.png'
+
+[ModDB]
+href = 'https://www.moddb.com/games/portal/mods'
+img = 'https://www.moddb.com/favicon.png'
+
+[CurseForge]
+href = 'https://www.curseforge.com/'
+img = '.png'
+
+[NexusMods]
+href = 'https://www.nexusmods.com/'
+img = 'https://www.nexusmods.com/apple-icon.png?apple-icon.b62fc276.png'

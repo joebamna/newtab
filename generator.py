@@ -1,9 +1,11 @@
-import os
-import sys
+import os, sys
 from types import SimpleNamespace as simple
 from time import sleep as zzz
 from typing import Any, Literal, SupportsIndex
 import json
+import tomllib as tom
+
+pjoin = os.path.join
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -27,95 +29,62 @@ no = '✕'
 na = 'N/A'
 indent = (sp * 4)
 
-cssIDs = simple(
-    IMG='$img',
-    APP='$id'
-)
+repo = 'https://joebamna.github.io/newtab/'
 
-def clear(Maybe: bool = True):
-    if Maybe:
-        os.system('cls')
-
-def rel(Maybe: bool = True):
-    if Maybe:
-        clear()
-        os.execv(sys.executable, [sys.executable] + sys.argv)
-
-def css_list_squash(css: list[str]) -> str:
-    return newl.join([part.replace(newl, nil) for part in css])
-
-def list_replace(parts: list[str], old: str, new: str, count: SupportsIndex = -1, /) -> list[str]:
-    return [part.replace(old, new, count) for part in parts]
-
-def dict_replace(kv: dict[str, str], old: str, new: str, count: SupportsIndex = -1, /) -> dict[str, str]:
-    return {k: v.replace(old, new, count) for k, v in kv.items()}
+def toml_get(filen: str) -> dict:
+    with open(filen, 'rb') as t:
+        return tom.load(t)
 
 def css_str(kv: dict[str, str]) -> str:
-    r = []
-
-    for k, v in kv.items():
-        r.append(f'{k}: {v}')
-
-    return semi.join(r)
-
+    return semi.join([f'{k}: {v}' for k, v in kv.items()])
 
 class App:
-    def __init__(self, ID: str, data) -> None:
-        self.ID = ID
-        self.href = data['href']
-        self.props = data.get('props', {'content': cssIDs.IMG})
-
-        self.props = dict_replace(self.props, cssIDs.IMG, f"var(--{cssIDs.APP})")
-        self.props = dict_replace(self.props, cssIDs.APP, self.ID)
-
-        # self.ID = f.removesuffix('.txt')
-        # self.props = []
-
-        # with open(os.path.join('APPS', f), 'r') as f:
-        #     self.props = f.read().splitlines()
-
-        # #file is empty
-        # if self.props == []:
-        #     self.props = [cssIDs.APPIMG]
-
-        # #the 'content: var(--AppID)' placeholder
-        # self.props = list_replace(self.props, cssIDs.APPIMG, f'content: {cssIDs.APP}')
-
-        # #the AppID placeholder
-        # self.props = list_replace(self.props, cssIDs.APP, f'var(--{self.ID})')
+    def __init__(self, lid: str, data) -> None:
+        self.ID: str = lid
+        self.href: str = data['href']
+        self.img: str = self.parse_img(lid, data['img'])
+        self.props: dict = {
+            'content': f'url("{self.img}")',
+            'image-rendering': 'auto'
+        } | data.get('props', {})
     
-    def __str__(self) -> str:
-        r = f'.Links > a[href="{self.href}"] > i > img[src]'
-        p = css_str(self.props)
+    def build(self) -> str:
+        return nil.join([
+            f'.Links > a[href="{self.href}"] > i > img[src]',
+            newl, '{', css_str(self.props), '}', (newl * 2)
+        ])
 
-        # if False:
-        #     p = p.replace(semi, semi + newl + indent)
+    @classmethod
+    def parse_img(cls, lid: str, value: str) -> str:
+        if value.startswith('http'):
+            return value
+        # ^ url
 
-        # r += f'{newl}{{{p}{newl}}}{newl}'
+        # file extension
+        if value.startswith(dot):
+            value = lid + value
+        
+        # file
+        return repo + value
 
-        r += f'{{{p}}}'
-        return r + newl
+base_header = f'@import url("{repo}style_base.css");'
 
-base_header = '@import url("https://joebamna.github.io/newtab/style_base.css");'
-
-style = simple(
-    base = nil,
-    apps = []
+appdata: dict = toml_get('apps.toml')
+styleapps: list[App] = sorted(
+    [
+        App(k, v)
+        for k, v in
+        appdata.items()
+    ],
+    key=lambda a: a.ID
 )
-with open('style_base.css', 'r') as f:
-    style.base = f.read()
-
-with open('apps.json', 'r') as f:
-    appdata = json.load(f)
-
-for k, v in appdata.items():
-    style.apps.append(App(k, v))
-
-style.apps = sorted(style.apps, key=lambda a: a.ID)
 
 with open('style.css', 'r+') as f:
     f.seek(0)
     f.truncate()
-    f.write((newl * 2).join([base_header, nil.join([str(a) for a in style.apps])]))
+    f.write((newl * 2).join([
+        base_header,
+        nil.join([a.build() for a in styleapps])
+    ]).removesuffix(newl))
 
-print(newl+'DONE')
+print('DONE')

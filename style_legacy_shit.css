@@ -1,0 +1,131 @@
+/*@-moz-keyframes 	pulse_toonhud { 5% { -moz-transform: scale(1.1); } 		8% { -moz-transform: scale(1.0); } }
+@-webkit-keyframes 	pulse_toonhud { 5% { -webkit-transform: scale(1.1); } 	8% { -webkit-transformtransform: scale(1.0); } }
+@keyframes 			pulse_toonhud { 5% { transform: scale(1.1); } 			8% { transform: scale(1.0); } }
+
+@-moz-keyframes 	spin_toonhud { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes 	spin_toonhud { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes 			spin_toonhud { 100% { transform:rotate(360deg); } }
+
+@-moz-keyframes 	antispin_toonhud { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes 	antispin_toonhud { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes 			antispin_toonhud { 100% { transform:rotate(-360deg); } }
+
+@-moz-keyframes 	scrollBg_toonhud { 100% { background-position: -4095px 0; } }
+@-webkit-keyframes 	scrollBg_toonhud { 100% { background-position: -4095px 0; } }
+@keyframes 			scrollBg_toonhud { 100% { background-position: -4095px 0; } }
+
+ <link rel="shortcut icon" href="https://addons.mozilla.org/favicon.ico?v=3"> */
+
+/*
+.Links a i img[src]:not(:hover) {
+    animation-direction: backwards;
+}
+
+.Links:has(a i img[src]:hover) a i img[src]:not(:hover) {
+    transition-delay: 0s;
+}*/
+
+/* .Links
+{
+    width: var(--linksw);
+} */
+
+
+
+:root
+{
+    /* --tflineshadow: 0px 0px 0 rgb(218, 218, 218), 0px 1px 0 rgb(191, 191, 191), 0px 2px 0 rgb(164, 164, 164), 0px 3px 0 rgb(137, 137, 137), 0px 4px 0 rgb(110, 110, 110), 0px 5px 0 rgb(83, 83, 83), 0px 6px 5px rgba(0, 0, 0, 0.6), 0px 6px 1px rgba(0, 0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0, .2);
+    --tflineshadow2: 0px 0px 0 rgb(232,232,232),0px 1px 0 rgb(219,219,219),0px 2px 0 rgb(206,206,206),0px 3px 0 rgb(194,194,194),0px 4px 0 rgb(181,181,181),0px 5px 0 rgb(168,168,168),0px 6px 0 rgb(155,155,155),0px 7px 0 rgb(142,142,142),0px 8px 0 rgb(129,129,129),0px 9px 0 rgb(117,117,117),0px 10px 0 rgb(104,104,104),0px 11px 0 rgb(91,91,91),0px 12px 0 rgb(78,78,78), 0px 13px 0 rgb(65,65,65),0px 14px 13px rgba(0,0,0,0.6),0px 14px 1px rgba(0,0,0,0.5),0px 0px 13px rgba(0,0,0,.2); */
+
+    --movedown: translateY(41.5px);
+
+    /* --beamfont: "Compacta";
+    --beamspace: -4px;
+    --beam: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"; */
+
+    /* --linksw: ;
+
+    --timefont: monospace;
+    --datefont: monospace;
+    --mainfont: monospace; */
+
+    /* --githudold2: url("https://github.com/fluidicon.png"); */
+    --githud: url("https://joebamna.github.io/newtab/img/giticon.png");
+    /* --gamebananaold: url("https://images.gamebanana.com/static/img/favicon/150x150.png"); */
+    --gamebanana: url("https://joebamna.github.io/newtab/img/banana.png");
+    --virustotal: url("https://www.virustotal.com/gui/images/manifest/icon-192x192.png");
+    --youtube: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/6c/ef/c76cef07-13b8-be48-8698-56077a64d2d3/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220.png/246x0w.webp");
+    --newgrounds: url("https://img.ngfiles.com/misc/ios/apple-touch-icon-72x72.png");
+    --bluesky: url("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/d1/cd/d3d1cdbd-2b80-5f3b-721c-9cf2c711bdab/AppIcon-0-0-1x_U007ephone-0-85-220.png/246x0w.webp");
+    --twitter: url("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/cf/d9/e8cfd9cf-b79f-4e1c-1e15-b759e0639611/ProductionAppIcon-0-0-1x_U007emarketing-0-7-0-0-0-85-220.png/246x0w.webp");
+    --twitch: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a4/15/24/a41524d9-3c85-4af5-92e9-c8b91fa22800/TwitchAppIcon-0-0-1x_U007emarketing-0-7-0-0-0-0-85-220.png/246x0w.webp");
+    --reddit: url("https://www.redditstatic.com/shreddit/assets/favicon/192x192.png");
+    --patreon: url("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/dc/97/18dc973a-4b48-1658-08f6-88944a12896e/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp");
+    --ai: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/36/3d/4b363d2b-753f-f33c-8d6f-6475855d5404/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/246x0w.webp");
+
+    --twiki: url("https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/62/14/c5/6214c563-eb00-0f93-e64b-c819c4080231/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp");
+    --ahk: url("https://joebamna.github.io/newtab/img/ahk.svg");
+    --pde: url("https://joebamna.github.io/newtab/img/pde.png");
+    --toonhud: url("https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg");
+    --icloud: url("https://joebamna.github.io/newtab/img/icloud_dark.png");
+    --MEGA: url("https://joebamna.github.io/newtab/img/mega.png");
+
+    --steamgrid: url("https://www.steamgriddb.com/static/img/logo-512.png");
+    --monkey: url("https://monkeytype.com/images/favicon/apple-touch-icon.png");
+    --viu: url("https://learn.viu.ca/d2l/loginh/img/viu-logo.png");
+    --gmail: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico");
+    --gd: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp");
+
+    --steamdb: url("https://steamdb.info/static/logos/512px.png");
+    --python: url("https://joebamna.github.io/newtab/img/python.png");
+    --beatleader: url("https://avatars.githubusercontent.com/u/98843512?v=4");
+    --fab: url("https://static.sketchfab.com/static/builds/web/dist/static/assets/images/favicon/e59d7f2ff579bbf9d20771b3d4d8c6a7-v2.png");
+    --pypi: url("https://pypi.org/static/images/logo-small.8998e9d1.svg");
+    --bsmaps: url("https://joebamna.github.io/newtab/img/bsmaps.png");
+
+    --broken-link: url("https://joebamna.github.io/newtab/img/broken-link.jpg");
+
+    --IMAGE-none: url("https://joebamna.github.io/newtab/img/broken-link.jpg")
+}
+
+html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
+{
+    animation-duration: 240s;
+    animation-iteration-count: infinite;
+    animation-name: scrollBg_toonhud;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+.Time .Digital,
+.Time h3,
+.Time hr::before
+{
+    text-shadow: var(--tflineshadow);
+    user-select: none;
+}
+
+.Time .Digital
+{
+    font-family: var(--timefont);
+    transform: var(--movedown);
+}
+.Time h3
+{
+    font-family: var(--datefont);
+    transform: var(--movedown);
+}
+.Time hr::before
+{
+    color: white;
+    font-family: var(--beamfont);
+    transform-origin: center;
+    letter-spacing: var(--beamspace);
+    content: var(--beam);
+}
+.Time hr
+{
+    display: block;
+    border-top: 0px solid transparent;
+    margin: 10px -30px;
+}
