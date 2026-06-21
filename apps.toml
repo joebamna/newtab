@@ -31,7 +31,7 @@ border = '7px solid transparent'
 href = "https://gemini.google.com/app"
 img = "https://icons.duckduckgo.com/ip3/gemini.google.com.ico"
 [Gemini.props]
-background-image = 'linear-gradient(to bottom, white, #D1D1D1)'
+background-image = 'linear-gradient(to top, white, #D3D3D3)'
 padding = '8px 8px'
 width = '64px'
 height = '64px'
@@ -151,7 +151,7 @@ height = '64px'
 href = 'https://www.pygame.org/docs/'
 img = '.png'
 [Pygame.props]
-background-image = 'linear-gradient(to bottom, #353c47, #0f1216)'
+background-image = 'linear-gradient(to bottom, #354735, #121A12)'
 
 [Textual]
 href = 'https://textual.textualize.io/'
@@ -174,7 +174,7 @@ img = 'https://cdn2.steamgriddb.com/icon/d6339bfa165891b7ebf1e0a7f50644e2.ico'
 href = 'https://gamejolt.com/games'
 img = 'https://s.gjcdn.net/assets/Bvg5_7wI.png'
 [GameJolt.props]
-padding = '3px 3px'
+padding = '4px 4px'
 background-color = '#292929'
 width = '64px'
 height = '64px'
@@ -198,7 +198,7 @@ background-color = 'white'
 href = 'https://www.lua.org/manual/5.1/'
 img = 'https://www.lua.org/images/logo.gif'
 [Lua.props]
-padding = '8px 8px'
+padding = '6px 6px'
 background-color = 'white'
 width = '64px'
 height = '64px'

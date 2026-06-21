@@ -7,7 +7,7 @@
 {content: url("https://joebamna.github.io/newtab/img/AutoHotkey.svg");image-rendering: auto;background-color: #448e3aff;padding: 8px 8px;width: 64px;height: 64px}
 
 .Links > a[href="https://balatrowiki.org/"] > i > img[src]
-{content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/0c/6dd30caf-f830-22d5-ba44-448cdff0df30/iOS_AppIcon_Premium-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp");image-rendering: auto}
+{content: url("https://cdn2.steamgriddb.com/icon/d6339bfa165891b7ebf1e0a7f50644e2.ico");image-rendering: auto}
 
 .Links > a[href="https://beatleader.com/"] > i > img[src]
 {content: url("https://avatars.githubusercontent.com/u/98843512?v=4");image-rendering: auto}
@@ -28,10 +28,10 @@
 {content: url("https://joebamna.github.io/newtab/img/GameBanana.png");image-rendering: auto;background-color: white}
 
 .Links > a[href="https://gamejolt.com/games"] > i > img[src]
-{content: url("https://s.gjcdn.net/assets/Bvg5_7wI.png");image-rendering: auto;padding: 3px 3px;background-color: #292929;width: 64px;height: 64px}
+{content: url("https://s.gjcdn.net/assets/Bvg5_7wI.png");image-rendering: auto;padding: 4px 4px;background-color: #292929;width: 64px;height: 64px}
 
 .Links > a[href="https://gemini.google.com/app"] > i > img[src]
-{content: url("https://icons.duckduckgo.com/ip3/gemini.google.com.ico");image-rendering: auto;background-image: linear-gradient(to bottom, white, #D1D1D1);padding: 8px 8px;width: 64px;height: 64px}
+{content: url("https://icons.duckduckgo.com/ip3/gemini.google.com.ico");image-rendering: auto;background-image: linear-gradient(to top, white, #D3D3D3);padding: 8px 8px;width: 64px;height: 64px}
 
 .Links > a[href="https://github.com/joebamna"] > i > img[src]
 {content: url("https://joebamna.github.io/newtab/img/Github.png");image-rendering: auto;background-image: linear-gradient(to bottom, #353c47, #0f1216)}
@@ -46,7 +46,7 @@
 {content: url("https://joebamna.github.io/newtab/img/LOVE.png");image-rendering: auto}
 
 .Links > a[href="https://www.lua.org/manual/5.1/"] > i > img[src]
-{content: url("https://www.lua.org/images/logo.gif");image-rendering: auto;padding: 4px 4px;background-color: white;width: 64px;height: 64px}
+{content: url("https://www.lua.org/images/logo.gif");image-rendering: auto;padding: 6px 6px;background-color: white;width: 64px;height: 64px}
 
 .Links > a[href="https://mega.nz/fm/QNJGiZZa"] > i > img[src]
 {content: url("https://joebamna.github.io/newtab/img/MEGA.png");image-rendering: auto}
@@ -73,7 +73,7 @@
 {content: url("https://pypi.org/static/images/logo-small.8998e9d1.svg");image-rendering: auto;padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
 
 .Links > a[href="https://www.pygame.org/docs/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/img/Pygame.png");image-rendering: auto;background-image: linear-gradient(to bottom, #353c47, #0f1216)}
+{content: url("https://joebamna.github.io/newtab/img/Pygame.png");image-rendering: auto;background-image: linear-gradient(to bottom, #354735, #121A12)}
 
 .Links > a[href="https://docs.python.org/3.11/"] > i > img[src]
 {content: url("https://joebamna.github.io/newtab/img/PythonDocs.png");image-rendering: auto}
@@ -97,7 +97,7 @@
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/62/14/c5/6214c563-eb00-0f93-e64b-c819c4080231/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp");image-rendering: auto}
 
 .Links > a[href="https://textual.textualize.io/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/img/Textual.svg");image-rendering: auto;padding: 4px 4px;background-color: #14151a;width: 64px;height: 64px}
+{content: url("https://joebamna.github.io/newtab/img/Textual.svg");image-rendering: auto;padding: 6px 6px;background-color: #14151a;width: 64px;height: 64px}
 
 .Links > a[href="https://toonhud.com/"] > i > img[src]
 {content: url("https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg");image-rendering: auto;padding: 4px 4px;background-color: #a03532}
