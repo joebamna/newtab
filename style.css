@@ -4,7 +4,7 @@
 {content: url("https://apps.apple.com/assets/favicon/favicon-180.png");image-rendering: auto}
 
 .Links > a[href="https://autohotkey.com/docs/v2/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/AutoHotkey.svg");image-rendering: auto;background-color: #448e3aff;padding: 8px 8px;width: 64px;height: 64px}
+{content: url("https://joebamna.github.io/newtab/img/AutoHotkey.svg");image-rendering: auto;background-color: #448e3aff;padding: 8px 8px;width: 64px;height: 64px}
 
 .Links > a[href="https://balatrowiki.org/"] > i > img[src]
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/0c/6dd30caf-f830-22d5-ba44-448cdff0df30/iOS_AppIcon_Premium-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp");image-rendering: auto}
@@ -13,19 +13,19 @@
 {content: url("https://avatars.githubusercontent.com/u/98843512?v=4");image-rendering: auto}
 
 .Links > a[href="https://beatsaver.com/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/BeatSaver.png");image-rendering: auto;padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
+{content: url("https://joebamna.github.io/newtab/img/BeatSaver.png");image-rendering: auto;padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
 
 .Links > a[href="https://bsky.app/"] > i > img[src]
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/d1/cd/d3d1cdbd-2b80-5f3b-721c-9cf2c711bdab/AppIcon-0-0-1x_U007ephone-0-85-220.png/246x0w.webp");image-rendering: auto}
 
 .Links > a[href="https://www.curseforge.com/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/CurseForge.png");image-rendering: auto}
+{content: url("https://joebamna.github.io/newtab/img/CurseForge.png");image-rendering: auto}
 
 .Links > a[href="https://gdbrowser.com/search"] > i > img[src]
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a1/b1/87a1b173-cc9e-b506-c387-9faccdbb523e/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/246x0w.webp");image-rendering: auto}
 
 .Links > a[href="https://gamebanana.com/games/297"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/GameBanana.png");image-rendering: auto;background-color: white}
+{content: url("https://joebamna.github.io/newtab/img/GameBanana.png");image-rendering: auto;background-color: white}
 
 .Links > a[href="https://gamejolt.com/games"] > i > img[src]
 {content: url("https://s.gjcdn.net/assets/Bvg5_7wI.png");image-rendering: auto;padding: 3px 3px;background-color: #292929;width: 64px;height: 64px}
@@ -34,22 +34,22 @@
 {content: url("https://icons.duckduckgo.com/ip3/gemini.google.com.ico");image-rendering: auto;background-image: linear-gradient(to bottom, white, #D1D1D1);padding: 8px 8px;width: 64px;height: 64px}
 
 .Links > a[href="https://github.com/joebamna"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/Github.png");image-rendering: auto;background-image: linear-gradient(to bottom, #353c47, #0f1216)}
+{content: url("https://joebamna.github.io/newtab/img/Github.png");image-rendering: auto;background-image: linear-gradient(to bottom, #353c47, #0f1216)}
 
 .Links > a[href="https://mail.google.com/mail/u/0/#inboxh"] > i > img[src]
 {content: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico");image-rendering: auto;padding: 4px 4px;background-color: white;width: 64px;height: 64px}
 
 .Links > a[href="https://itch.io/"] > i > img[src]
-{content: url("https://static.itch.io/images/itchio-textless-white.svg");image-rendering: auto;padding: 4px 4px;background-color: #c54f4f;width: 64px;height: 64px}
+{content: url("https://static.itch.io/images/itchio-textless-white.svg");image-rendering: auto;padding: 8px 8px;background-color: #c54f4f;width: 64px;height: 64px}
 
 .Links > a[href="https://love2d.org/wiki/Main_Page"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/LOVE.png");image-rendering: auto}
+{content: url("https://joebamna.github.io/newtab/img/LOVE.png");image-rendering: auto}
 
 .Links > a[href="https://www.lua.org/manual/5.1/"] > i > img[src]
 {content: url("https://www.lua.org/images/logo.gif");image-rendering: auto;padding: 4px 4px;background-color: white;width: 64px;height: 64px}
 
 .Links > a[href="https://mega.nz/fm/QNJGiZZa"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/MEGA.png");image-rendering: auto}
+{content: url("https://joebamna.github.io/newtab/img/MEGA.png");image-rendering: auto}
 
 .Links > a[href="https://www.moddb.com/games/portal/mods"] > i > img[src]
 {content: url("https://www.moddb.com/favicon.png");image-rendering: auto}
@@ -67,22 +67,22 @@
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/dc/97/18dc973a-4b48-1658-08f6-88944a12896e/AppIcon-0-0-1x_U007epad-0-0-85-220.png/246x0w.webp");image-rendering: auto}
 
 .Links > a[href="https://processing.org/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/ProcessingJava.png");image-rendering: auto}
+{content: url("https://joebamna.github.io/newtab/img/ProcessingJava.png");image-rendering: auto}
 
 .Links > a[href="https://pypi.org/"] > i > img[src]
 {content: url("https://pypi.org/static/images/logo-small.8998e9d1.svg");image-rendering: auto;padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
 
 .Links > a[href="https://www.pygame.org/docs/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/Pygame.png");image-rendering: auto;background-image: linear-gradient(to bottom, #353c47, #0f1216)}
+{content: url("https://joebamna.github.io/newtab/img/Pygame.png");image-rendering: auto;background-image: linear-gradient(to bottom, #353c47, #0f1216)}
 
 .Links > a[href="https://docs.python.org/3.11/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/PythonDocs.png");image-rendering: auto}
+{content: url("https://joebamna.github.io/newtab/img/PythonDocs.png");image-rendering: auto}
 
 .Links > a[href="https://reddit.com/"] > i > img[src]
 {content: url("https://www.redditstatic.com/shreddit/assets/favicon/192x192.png");image-rendering: auto;background-color: white;border: 7px solid transparent}
 
 .Links > a[href="https://rust-lang.org/learn/"] > i > img[src]
-{content: url("https://rust-lang.org/static/images/rust-logo-blk.svg");image-rendering: auto;padding: 4px 4px;background-color: white;width: 64px;height: 64px}
+{content: url("https://rust-lang.org/static/images/rust-logo-blk.svg");image-rendering: auto;padding: 2px 2px;background-color: white;width: 64px;height: 64px}
 
 .Links > a[href="https://sketchfab.com/feed"] > i > img[src]
 {content: url("https://static.sketchfab.com/static/builds/web/dist/static/assets/images/favicon/e59d7f2ff579bbf9d20771b3d4d8c6a7-v2.png");image-rendering: auto}
@@ -97,7 +97,7 @@
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/62/14/c5/6214c563-eb00-0f93-e64b-c819c4080231/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.webp");image-rendering: auto}
 
 .Links > a[href="https://textual.textualize.io/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/Textual.svg");image-rendering: auto;padding: 4px 4px;background-color: #14151a;width: 64px;height: 64px}
+{content: url("https://joebamna.github.io/newtab/img/Textual.svg");image-rendering: auto;padding: 4px 4px;background-color: #14151a;width: 64px;height: 64px}
 
 .Links > a[href="https://toonhud.com/"] > i > img[src]
 {content: url("https://avatars.cloudflare.steamstatic.com/ed3bdd3dafaa0b480882f3a2cf230dd935008002_full.jpg");image-rendering: auto;padding: 4px 4px;background-color: #a03532}
@@ -118,4 +118,4 @@
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/6c/ef/c76cef07-13b8-be48-8698-56077a64d2d3/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-6-0-0-0-85-220.png/246x0w.webp");image-rendering: auto}
 
 .Links > a[href="https://icloud.com/"] > i > img[src]
-{content: url("https://joebamna.github.io/newtab/iCloud-Dark.png");image-rendering: auto}
+{content: url("https://joebamna.github.io/newtab/img/iCloud-Dark.png");image-rendering: auto}

@@ -65,7 +65,7 @@ class App:
             value = lid + value
         
         # file
-        return repo + value
+        return repo + 'img/' + value
 
 base_header = f'@import url("{repo}style_base.css");'
 
