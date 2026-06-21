@@ -15,7 +15,7 @@ body
 { font-family: monospace; }
 
 html.theme-dark body div#root div.Dashboard.fullscreen.dark div.Background div.fullscreen div.Image.fullscreen
-{ filter: blur(32px); }
+{ filter: blur(32px) !important; }
 
 .Links a i img
 {
