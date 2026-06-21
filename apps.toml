@@ -192,10 +192,7 @@ height = '64px'
 href = 'https://rust-lang.org/learn/'
 img = 'https://rust-lang.org/static/images/rust-logo-blk.svg'
 [Rust.props]
-padding = '2px 2px'
 background-color = 'white'
-width = '64px'
-height = '64px'
 
 [Lua]
 href = 'https://www.lua.org/manual/5.1/'

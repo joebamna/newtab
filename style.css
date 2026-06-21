@@ -82,7 +82,7 @@
 {content: url("https://www.redditstatic.com/shreddit/assets/favicon/192x192.png");image-rendering: auto;background-color: white;border: 7px solid transparent}
 
 .Links > a[href="https://rust-lang.org/learn/"] > i > img[src]
-{content: url("https://rust-lang.org/static/images/rust-logo-blk.svg");image-rendering: auto;padding: 2px 2px;background-color: white;width: 64px;height: 64px}
+{content: url("https://rust-lang.org/static/images/rust-logo-blk.svg");image-rendering: auto;background-color: white}
 
 .Links > a[href="https://sketchfab.com/feed"] > i > img[src]
 {content: url("https://static.sketchfab.com/static/builds/web/dist/static/assets/images/favicon/e59d7f2ff579bbf9d20771b3d4d8c6a7-v2.png");image-rendering: auto}
