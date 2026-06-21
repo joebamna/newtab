@@ -157,7 +157,7 @@ background-image = 'linear-gradient(to bottom, #353c47, #0f1216)'
 href = 'https://textual.textualize.io/'
 img = '.svg'
 [Textual.props]
-padding = '4px 4px'
+padding = '6px 6px'
 background-color = '#14151a'
 width = '64px'
 height = '64px'
@@ -168,7 +168,7 @@ img = 'https://apps.apple.com/assets/favicon/favicon-180.png'
 
 [BalatroWiki]
 href = 'https://balatrowiki.org/'
-img = 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/d3/0c/6dd30caf-f830-22d5-ba44-448cdff0df30/iOS_AppIcon_Premium-0-0-1x_U007epad-0-1-85-220.png/200x200ia-75.webp'
+img = 'https://cdn2.steamgriddb.com/icon/d6339bfa165891b7ebf1e0a7f50644e2.ico'
 
 [GameJolt]
 href = 'https://gamejolt.com/games'
@@ -198,7 +198,7 @@ background-color = 'white'
 href = 'https://www.lua.org/manual/5.1/'
 img = 'https://www.lua.org/images/logo.gif'
 [Lua.props]
-padding = '4px 4px'
+padding = '8px 8px'
 background-color = 'white'
 width = '64px'
 height = '64px'
