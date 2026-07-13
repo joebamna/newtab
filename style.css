@@ -18,6 +18,9 @@
 .Links > a[href="https://bsky.app/"] > i > img[src]
 {content: url("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/d1/cd/d3d1cdbd-2b80-5f3b-721c-9cf2c711bdab/AppIcon-0-0-1x_U007ephone-0-85-220.png/246x0w.webp");image-rendering: auto}
 
+.Links > a[href="https://www.boot.dev/dashboard"] > i > img[src]
+{content: url("https://joebamna.github.io/newtab/img/BootDotDev.png");image-rendering: auto}
+
 .Links > a[href="https://www.curseforge.com/"] > i > img[src]
 {content: url("https://joebamna.github.io/newtab/img/CurseForge.png");image-rendering: auto}
 

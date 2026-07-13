@@ -218,3 +218,7 @@ img = '.png'
 [NexusMods]
 href = 'https://www.nexusmods.com/'
 img = 'https://www.nexusmods.com/apple-icon.png?apple-icon.b62fc276.png'
+
+[BootDotDev]
+href = 'https://www.boot.dev/dashboard'
+img = '.png'
