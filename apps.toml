@@ -131,7 +131,7 @@ img = 'https://static.sketchfab.com/static/builds/web/dist/static/assets/images/
 
 [PyPI]
 href = 'https://pypi.org/'
-img = 'https://pypi.org/static/images/logo-small.8998e9d1.svg'
+img = 'https://pypi.org/static/images/logo-small.0e0855d0.svg'
 [PyPI.props]
 padding = '8px 8px'
 background-color = '#222222'

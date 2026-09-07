@@ -73,7 +73,7 @@
 {content: url("https://joebamna.github.io/newtab/img/ProcessingJava.png");image-rendering: auto}
 
 .Links > a[href="https://pypi.org/"] > i > img[src]
-{content: url("https://pypi.org/static/images/logo-small.8998e9d1.svg");image-rendering: auto;padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
+{content: url("https://pypi.org/static/images/logo-small.0e0855d0.svg");image-rendering: auto;padding: 8px 8px;background-color: #222222;width: 64px;height: 64px}
 
 .Links > a[href="https://www.pygame.org/docs/"] > i > img[src]
 {content: url("https://joebamna.github.io/newtab/img/Pygame.png");image-rendering: auto;background-image: linear-gradient(to bottom, #354735, #121A12)}
